@@ -1,0 +1,161 @@
+incident_id,incident_number,service_id,severity,title,detected_at,acknowledged_at,mitigated_at,resolved_at,status,commander_id,caused_by_change_id,root_cause_category,rca_completed
+1,INC0010001,4,4,STL packet loss to transmitter site,2026-07-01 10:47:00,2026-07-01 12:02:00,2026-07-02 01:55:00,2026-07-02 08:04:00,Resolved,5,,Network,0
+2,INC0010002,8,4,Memory leak in worker process,2026-07-01 14:30:00,2026-07-01 16:33:00,2026-07-01 22:49:00,2026-07-02 11:25:00,Resolved,5,,Software Defect,1
+3,INC0010003,1,4,Disk usage above threshold,2026-07-02 22:10:00,2026-07-02 23:45:00,2026-07-03 23:13:00,2026-07-04 12:43:00,Resolved,3,12,Change,0
+4,INC0010004,3,4,Intermittent network timeouts,2026-07-03 12:23:00,2026-07-03 14:33:00,2026-07-04 04:39:00,2026-07-04 19:17:00,Resolved,7,32,Change,1
+5,INC0010005,3,4,Intermittent network timeouts,2026-07-03 21:51:00,2026-07-04 03:38:00,2026-07-05 00:12:00,2026-07-05 05:31:00,Resolved,4,,Network,1
+6,INC0010006,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-07-04 02:10:00,2026-07-04 03:02:00,2026-07-04 09:03:00,2026-07-04 16:02:00,Resolved,4,,Capacity,0
+7,INC0010007,7,3,Memory leak in worker process,2026-07-04 09:05:00,2026-07-04 09:53:00,2026-07-04 11:36:00,2026-07-04 14:08:00,Resolved,8,,Software Defect,0
+8,INC0010008,1,3,Playout skipped scheduled spots,2026-07-05 11:06:00,2026-07-05 11:48:00,2026-07-05 17:06:00,2026-07-06 02:45:00,Resolved,1,,Software Defect,0
+9,INC0010009,7,3,ENDEC failed self-test,2026-07-06 13:55:00,2026-07-06 14:17:00,2026-07-06 17:00:00,2026-07-06 19:39:00,Resolved,2,,Hardware,1
+10,INC0010010,7,3,High memory pressure on server,2026-07-07 16:47:00,2026-07-07 17:36:00,2026-07-07 19:40:00,2026-07-07 21:50:00,Resolved,3,,Capacity,1
+11,INC0010011,4,3,Traffic log merge failed,2026-07-08 22:02:00,2026-07-08 22:21:00,2026-07-09 01:38:00,2026-07-09 02:26:00,Resolved,1,,Software Defect,0
+12,INC0010012,6,4,Intermittent network timeouts,2026-07-09 09:10:00,2026-07-09 10:02:00,2026-07-10 07:43:00,2026-07-10 12:04:00,Resolved,5,,Network,1
+13,INC0010013,1,3,Disk usage above threshold,2026-07-09 09:37:00,2026-07-09 09:47:00,2026-07-09 16:34:00,2026-07-09 17:53:00,Resolved,5,,Capacity,1
+14,INC0010014,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-07-10 03:11:00,2026-07-10 03:24:00,2026-07-10 07:34:00,2026-07-10 09:49:00,Resolved,2,,Capacity,0
+15,INC0010015,7,3,Unexpected service restart,2026-07-10 10:29:00,2026-07-10 10:39:00,2026-07-10 12:16:00,2026-07-10 14:35:00,Resolved,6,,Unknown,1
+16,INC0010016,7,2,Service degraded following change,2026-07-11 00:52:00,2026-07-11 01:10:00,2026-07-11 02:12:00,2026-07-11 02:56:00,Resolved,3,36,Change,1
+17,INC0010017,7,4,Memory leak in worker process,2026-07-11 13:19:00,2026-07-11 16:25:00,2026-07-12 08:19:00,2026-07-11 09:05:00,Resolved,7,,Software Defect,1
+18,INC0010018,10,3,Intermittent network timeouts,2026-07-13 12:42:00,2026-07-13 13:07:00,2026-07-13 19:40:00,2026-07-13 07:59:00,Resolved,1,,Network,0
+19,INC0010019,1,4,Network program feed lost,2026-07-13 21:20:00,2026-07-13 22:02:00,2026-07-14 04:59:00,2026-07-14 08:34:00,Resolved,6,,Third-Party,1
+20,INC0010020,7,2,Streaming CDN provider outage - online listeners dropping,2026-07-14 10:32:00,2026-07-14 10:48:00,2026-07-14 13:54:00,2026-07-14 15:41:00,Resolved,2,,Third-Party,1
+21,INC0010021,6,4,Intermittent network timeouts,2026-07-14 14:26:00,2026-07-14 15:35:00,2026-07-16 00:53:00,2026-07-16 08:58:00,Resolved,2,,Network,0
+22,INC0010022,2,3,Database log file growth,2026-07-14 17:27:00,2026-07-14 17:38:00,2026-07-14 21:23:00,2026-07-15 00:40:00,Resolved,2,,Capacity,0
+23,INC0010023,7,4,Unexpected service restart,2026-07-15 08:09:00,2026-07-15 09:16:00,2026-07-15 14:45:00,2026-07-16 03:52:00,Resolved,3,,Unknown,1
+24,INC0010024,3,4,Disk usage above threshold,2026-07-16 04:25:00,2026-07-16 05:16:00,2026-07-16 17:15:00,2026-07-17 06:12:00,Resolved,8,,Capacity,1
+25,INC0010025,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-07-17 01:55:00,2026-07-17 02:22:00,2026-07-17 09:38:00,2026-07-17 11:44:00,Resolved,1,,Capacity,0
+26,INC0010026,6,4,Encoder CPU saturated - stream buffering,2026-07-17 09:21:00,2026-07-17 10:35:00,2026-07-17 19:10:00,2026-07-18 07:18:00,Resolved,5,,Capacity,0
+27,INC0010027,7,3,Memory leak in worker process,2026-07-18 14:34:00,2026-07-18 15:08:00,2026-07-18 18:01:00,2026-07-18 20:24:00,Resolved,6,,Software Defect,0
+28,INC0010028,1,3,Disk usage above threshold,2026-07-18 18:08:00,2026-07-18 18:27:00,2026-07-19 01:44:00,2026-07-19 11:52:00,Resolved,6,,Capacity,0
+29,INC0010029,3,4,Intermittent network timeouts,2026-07-19 14:04:00,2026-07-19 16:08:00,2026-07-20 19:18:00,2026-07-21 05:13:00,Resolved,7,,Network,0
+30,INC0010030,7,3,Service degraded following change,2026-07-20 05:27:00,2026-07-20 06:45:00,2026-07-20 08:48:00,2026-07-20 13:48:00,Resolved,4,70,Change,1
+31,INC0010031,2,3,Unexpected service restart,2026-07-20 08:35:00,2026-07-20 08:52:00,2026-07-20 15:25:00,2026-07-20 18:53:00,Resolved,8,,Unknown,0
+32,INC0010032,2,3,Aircheck logger storage full,2026-07-20 17:56:00,2026-07-20 18:12:00,2026-07-20 21:18:00,2026-07-21 00:38:00,Resolved,8,,Capacity,1
+33,INC0010033,1,4,Network program feed lost,2026-07-21 10:15:00,2026-07-21 11:03:00,2026-07-22 15:51:00,2026-07-23 12:00:00,Resolved,1,,Third-Party,0
+34,INC0010034,7,4,Service crashed - unhandled exception,2026-07-22 21:34:00,2026-07-22 22:42:00,2026-07-23 04:04:00,2026-07-23 07:56:00,Resolved,7,,Software Defect,1
+35,INC0010035,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-07-23 02:42:00,2026-07-23 02:58:00,2026-07-23 14:51:00,2026-07-23 20:38:00,Resolved,7,,Capacity,0
+36,INC0010036,4,4,UPS on battery at transmitter site,2026-07-24 11:22:00,2026-07-24 12:39:00,2026-07-24 19:18:00,2026-07-25 08:24:00,Resolved,4,,Power,1
+37,INC0010037,4,3,UPS on battery at transmitter site,2026-07-24 12:56:00,2026-07-24 13:26:00,2026-07-24 17:03:00,2026-07-24 22:48:00,Resolved,4,,Power,1
+38,INC0010038,8,4,ENDEC failed self-test,2026-07-25 11:59:00,2026-07-25 12:50:00,2026-07-25 20:05:00,2026-07-26 05:37:00,Resolved,5,,Hardware,0
+39,INC0010039,3,2,Unexpected service restart,2026-07-25 13:56:00,2026-07-25 14:00:00,2026-07-25 17:40:00,2026-07-25 18:16:00,Resolved,5,,,1
+40,INC0010040,4,2,Playout skipped scheduled spots,2026-07-26 16:59:00,2026-07-26 17:02:00,2026-07-26 19:07:00,2026-07-26 20:02:00,Resolved,6,,Software Defect,1
+41,INC0010041,6,1,Switch line card failure,2026-07-27 14:29:00,2026-07-27 14:32:00,2026-07-27 16:24:00,2026-07-27 16:58:00,Resolved,7,,Hardware,1
+42,INC0010042,2,3,Intermittent audio glitches on air,2026-07-27 17:02:00,2026-07-27 17:17:00,2026-07-28 00:00:00,2026-07-28 06:38:00,Resolved,7,,Unknown,1
+43,INC0010043,4,4,Unexpected service restart,2026-07-28 13:49:00,2026-07-28 17:48:00,2026-07-29 01:21:00,2026-07-29 12:17:00,Resolved,8,,Unknown,1
+44,INC0010044,10,3,Unexpected service restart,2026-07-29 10:21:00,2026-07-29 10:49:00,2026-07-29 14:19:00,2026-07-29 21:26:00,Resolved,1,,Unknown,0
+45,INC0010045,6,3,Service crashed - unhandled exception,2026-07-30 04:02:00,2026-07-30 04:43:00,2026-07-31 01:22:00,2026-07-31 06:59:00,Resolved,6,,Software Defect,1
+46,INC0010046,2,2,High memory pressure on server,2026-07-30 20:40:00,2026-07-30 20:48:00,2026-07-30 21:34:00,2026-07-30 16:34:00,Resolved,7,,Capacity,1
+47,INC0010047,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-07-31 03:42:00,2026-07-31 03:53:00,2026-07-31 09:27:00,2026-07-31 10:37:00,Resolved,7,,Capacity,0
+48,INC0010048,5,4,Service crashed - unhandled exception,2026-07-31 14:36:00,2026-07-31 15:55:00,2026-08-01 01:56:00,2026-08-01 14:28:00,Resolved,3,,Software Defect,0
+49,INC0010049,1,3,Network program feed lost,2026-08-01 14:35:00,2026-08-01 14:55:00,2026-08-01 22:19:00,2026-08-02 00:00:00,Resolved,4,,Third-Party,0
+50,INC0010050,4,4,Traffic log merge failed,2026-08-01 14:47:00,2026-08-01 15:50:00,2026-08-02 05:20:00,2026-08-02 08:42:00,Resolved,4,,Software Defect,1
+51,INC0010051,5,4,Traffic log merge failed,2026-08-01 15:42:00,2026-08-01 16:39:00,2026-08-02 17:46:00,2026-08-08 23:38:00,Resolved,4,,Software Defect,1
+52,INC0010052,9,3,Newsroom wire ingest stalled,2026-08-02 11:03:00,2026-08-02 11:17:00,2026-08-02 13:58:00,2026-08-02 19:32:00,Resolved,5,,Software Defect,1
+53,INC0010053,7,4,High memory pressure on server,2026-08-02 14:33:00,2026-08-02 16:04:00,2026-08-03 07:54:00,,Resolved,5,,Capacity,0
+54,INC0010054,2,4,Disk usage above threshold,2026-08-03 13:16:00,2026-08-03 14:19:00,2026-08-04 05:12:00,2026-08-04 16:50:00,Resolved,6,,Capacity,1
+55,INC0010055,3,2,UPS on battery at transmitter site,2026-08-03 17:20:00,2026-08-03 17:24:00,2026-08-03 20:11:00,2026-08-03 21:04:00,Resolved,6,,,1
+56,INC0010056,5,2,Intermittent network timeouts,2026-08-05 11:02:00,2026-08-05 11:06:00,2026-08-05 14:17:00,2026-08-05 15:37:00,Resolved,8,,Network,1
+57,INC0010057,10,3,Newsroom wire ingest stalled,2026-08-05 13:06:00,2026-08-05 13:10:00,2026-08-06 08:44:00,2026-08-06 11:37:00,Resolved,8,,Software Defect,0
+58,INC0010058,10,3,Service degraded following change,2026-08-05 16:19:00,2026-08-05 16:52:00,2026-08-05 20:43:00,2026-08-05 23:58:00,Resolved,8,,Software Defect,1
+59,INC0010059,7,2,Streaming CDN provider outage - online listeners dropping,2026-08-06 15:05:00,2026-08-06 15:13:00,2026-08-06 18:32:00,2026-08-06 19:23:00,Resolved,1,,Third-Party,1
+60,INC0010060,4,3,Disk usage above threshold,2026-08-06 17:01:00,2026-08-06 17:55:00,2026-08-06 23:48:00,2026-08-07 02:15:00,Resolved,1,,Capacity,0
+61,INC0010061,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-08-07 03:38:00,2026-08-07 04:00:00,2026-08-07 10:09:00,2026-08-07 11:16:00,Resolved,6,,Capacity,0
+62,INC0010062,1,3,Network program feed lost,2026-08-07 06:36:00,2026-08-07 07:01:00,2026-08-07 19:02:00,2026-08-07 20:56:00,Resolved,6,,Third-Party,0
+63,INC0010063,7,2,Service degraded following change,2026-08-07 13:43:00,2026-08-07 13:50:00,2026-08-07 15:42:00,2026-08-07 16:48:00,Resolved,2,,Software Defect,1
+64,INC0010064,3,3,Transmitter exciter fault,2026-08-09 03:53:00,2026-08-09 05:13:00,2026-08-09 14:20:00,2026-08-09 16:32:00,Resolved,8,,Hardware,0
+65,INC0010065,1,3,Service crashed - unhandled exception,2026-08-10 10:32:00,2026-08-10 11:19:00,2026-08-10 15:06:00,2026-08-10 19:24:00,Resolved,5,,Software Defect,1
+66,INC0010066,7,3,Memory leak in worker process,2026-08-10 18:19:00,2026-08-10 19:03:00,2026-08-10 20:59:00,2026-08-11 00:48:00,Resolved,5,,Software Defect,0
+67,INC0010067,4,3,Intermittent network timeouts,2026-08-11 13:09:00,2026-08-11 13:22:00,2026-08-11 15:30:00,2026-08-11 17:06:00,Resolved,6,,Network,1
+68,INC0010068,10,3,Newsroom wire ingest stalled,2026-08-12 08:47:00,2026-08-12 09:30:00,2026-08-12 12:56:00,2026-08-12 14:40:00,Resolved,7,,Software Defect,0
+69,INC0010069,3,4,Intermittent network timeouts,2026-08-12 17:37:00,2026-08-12 19:14:00,2026-08-13 18:14:00,2026-08-14 09:38:00,Resolved,7,,Network,1
+70,INC0010070,3,2,High memory pressure on server,2026-08-13 03:29:00,2026-08-13 03:34:00,2026-08-13 05:02:00,2026-08-13 06:35:00,Resolved,4,,,1
+71,INC0010071,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-08-13 04:25:00,2026-08-13 04:40:00,2026-08-13 07:44:00,2026-08-13 15:41:00,Resolved,4,,Capacity,0
+72,INC0010072,2,4,Encoder CPU saturated - stream buffering,2026-08-13 08:51:00,2026-08-13 09:32:00,2026-08-14 03:54:00,2026-08-14 07:26:00,Resolved,,,Capacity,1
+73,INC0010073,5,4,Hard drive failure on server,2026-08-14 11:22:00,2026-08-14 13:49:00,2026-08-16 21:23:00,2026-08-17 13:22:00,Resolved,1,,Hardware,1
+74,INC0010074,8,3,Unexpected service restart,2026-08-14 15:56:00,2026-08-14 16:09:00,2026-08-14 19:32:00,2026-08-14 20:14:00,Resolved,1,,Unknown,1
+75,INC0010075,1,3,Disk usage above threshold,2026-08-15 13:56:00,2026-08-15 14:21:00,2026-08-15 22:13:00,2026-08-16 05:20:00,Resolved,2,,Capacity,0
+76,INC0010076,4,3,Service crashed - unhandled exception,2026-08-16 13:48:00,2026-08-16 13:57:00,2026-08-16 19:30:00,2026-08-16 23:29:00,Resolved,3,,Software Defect,0
+77,INC0010077,5,3,Hard drive failure on server,2026-08-17 10:22:00,2026-08-17 10:37:00,2026-08-17 15:53:00,2026-08-17 19:15:00,Resolved,4,,Hardware,0
+78,INC0010078,6,2,ENDEC failed self-test,2026-08-17 17:28:00,2026-08-17 17:32:00,2026-08-17 18:51:00,2026-08-17 20:27:00,Resolved,4,,Hardware,1
+79,INC0010079,5,3,Unexpected service restart,2026-08-18 11:45:00,2026-08-18 12:12:00,2026-08-18 15:03:00,2026-08-18 16:10:00,Resolved,5,,Unknown,0
+80,INC0010080,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-08-19 05:23:00,2026-08-19 05:35:00,2026-08-19 10:25:00,2026-08-19 18:44:00,Resolved,2,,Capacity,0
+81,INC0010081,3,3,UPS on battery at transmitter site,2026-08-19 10:22:00,2026-08-19 10:36:00,2026-08-19 16:43:00,2026-08-19 21:45:00,Resolved,6,,Power,1
+82,INC0010082,10,4,High memory pressure on server,2026-08-19 23:44:00,2026-08-20 01:19:00,2026-08-20 08:59:00,,Resolved,3,,Capacity,1
+83,INC0010083,5,4,Traffic log merge failed,2026-08-20 09:11:00,2026-08-20 10:17:00,2026-08-21 05:18:00,2026-08-21 08:58:00,Resolved,7,,Software Defect,0
+84,INC0010084,7,4,Unexpected service restart,2026-08-21 09:20:00,2026-08-21 10:45:00,2026-08-21 18:07:00,2026-08-22 10:25:00,Resolved,8,,Unknown,0
+85,INC0010085,5,4,Memory leak in worker process,2026-08-22 16:00:00,2026-08-22 16:50:00,2026-08-23 09:39:00,2026-08-23 16:21:00,Resolved,1,,Software Defect,0
+86,INC0010086,3,3,Transmitter exciter fault,2026-08-23 19:33:00,2026-08-23 20:21:00,2026-08-24 00:17:00,2026-08-24 03:25:00,Resolved,2,,Hardware,1
+87,INC0010087,1,4,Intermittent network timeouts,2026-08-23 20:36:00,2026-08-23 22:22:00,2026-08-24 06:12:00,2026-08-24 21:03:00,Resolved,7,,Network,0
+88,INC0010088,7,3,Transmitter exciter fault,2026-08-24 20:19:00,2026-08-24 20:31:00,2026-08-25 03:43:00,2026-08-25 06:11:00,Resolved,8,,Hardware,1
+89,INC0010089,4,4,Disk usage above threshold,2026-08-25 15:39:00,2026-08-25 16:47:00,2026-08-26 23:10:00,2026-08-27 02:22:00,Resolved,4,,Capacity,1
+90,INC0010090,3,4,Playout skipped scheduled spots,2026-08-25 15:55:00,2026-08-25 17:05:00,2026-08-27 10:49:00,2026-08-27 20:24:00,Resolved,4,,Software Defect,0
+91,INC0010091,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-08-26 06:02:00,2026-08-26 06:38:00,2026-08-26 11:54:00,2026-08-26 14:06:00,Resolved,1,,Capacity,0
+92,INC0010092,5,4,Service crashed - unhandled exception,2026-08-26 08:08:00,2026-08-26 09:23:00,2026-08-26 20:46:00,2026-08-27 12:39:00,Resolved,5,,Software Defect,1
+93,INC0010093,5,3,Service crashed - unhandled exception,2026-08-26 09:40:00,2026-08-26 09:53:00,2026-08-26 14:18:00,2026-08-26 15:28:00,Resolved,5,,Software Defect,0
+94,INC0010094,7,2,Streaming CDN provider outage - online listeners dropping,2026-08-27 11:48:00,2026-08-27 12:17:00,2026-08-27 13:14:00,2026-08-27 15:07:00,Resolved,6,,Third-Party,1
+95,INC0010095,7,4,Intermittent network timeouts,2026-08-27 13:03:00,2026-08-27 13:27:00,2026-08-28 00:26:00,2026-08-28 03:40:00,Resolved,6,,Network,1
+96,INC0010096,1,4,Playout skipped scheduled spots,2026-08-27 23:44:00,2026-08-28 00:36:00,2026-08-28 18:32:00,2026-08-29 20:17:00,Resolved,3,,Software Defect,0
+97,INC0010097,1,4,Service crashed - unhandled exception,2026-08-28 09:11:00,2026-08-28 10:34:00,2026-08-29 00:56:00,2026-08-29 21:16:00,Resolved,7,,Software Defect,0
+98,INC0010098,3,2,Utility power lost at transmitter site - running on generator,2026-08-28 12:16:00,2026-08-28 12:23:00,2026-08-28 13:59:00,2026-08-28 14:46:00,Resolved,7,,Power,1
+99,INC0010099,6,2,Unexpected service restart,2026-08-29 15:50:00,2026-08-29 16:00:00,2026-08-29 16:55:00,2026-08-29 17:39:00,Resolved,8,,,1
+100,INC0010100,10,3,High memory pressure on server,2026-08-31 01:27:00,2026-08-31 02:22:00,2026-08-31 09:20:00,2026-08-31 12:53:00,Resolved,6,,Capacity,1
+101,INC0010101,4,3,Intermittent audio glitches on air,2026-08-31 11:17:00,2026-08-31 11:32:00,2026-08-31 23:10:00,2026-09-01 02:08:00,Resolved,2,,Unknown,0
+102,INC0010102,3,3,Service degraded following change,2026-09-01 17:47:00,2026-09-01 18:50:00,2026-09-02 06:51:00,2026-09-02 09:32:00,Resolved,3,,Unknown,1
+103,INC0010103,4,4,High memory pressure on server,2026-09-02 10:13:00,2026-09-02 10:43:00,2026-09-03 08:25:00,2026-09-03 20:32:00,Resolved,4,,Capacity,1
+104,INC0010104,2,4,Intermittent network timeouts,2026-09-02 17:49:00,2026-09-02 19:14:00,2026-09-03 03:19:00,2026-09-03 16:22:00,Resolved,4,,Network,1
+105,INC0010105,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-09-03 07:23:00,2026-09-03 07:53:00,2026-09-03 19:58:00,2026-09-04 01:09:00,Resolved,1,,Capacity,0
+106,INC0010106,2,2,Memory leak in worker process,2026-09-03 10:41:00,2026-09-03 10:44:00,2026-09-03 11:17:00,2026-09-03 13:43:00,Resolved,5,,Software Defect,1
+107,INC0010107,7,3,Memory leak in worker process,2026-09-04 15:01:00,2026-09-04 15:17:00,2026-09-04 23:26:00,2026-09-05 05:19:00,Resolved,6,,Software Defect,1
+108,INC0010108,8,3,Intermittent network timeouts,2026-09-04 17:02:00,2026-09-04 17:24:00,2026-09-04 23:18:00,2026-09-05 07:19:00,Resolved,6,,Network,1
+109,INC0010109,3,3,Transmitter exciter fault,2026-09-05 15:02:00,2026-09-05 15:40:00,2026-09-05 18:34:00,2026-09-05 21:06:00,Resolved,7,,Hardware,1
+110,INC0010110,1,3,Intermittent network timeouts,2026-09-05 15:44:00,2026-09-05 16:21:00,2026-09-06 01:06:00,2026-09-06 03:25:00,Resolved,7,,Network,0
+111,INC0010111,4,2,UPS on battery at transmitter site,2026-09-06 09:12:00,2026-09-06 09:17:00,2026-09-06 11:33:00,2026-09-06 12:35:00,Resolved,8,,Power,1
+112,INC0010112,6,2,Service degraded following change,2026-09-06 15:38:00,2026-09-06 15:45:00,2026-09-06 18:57:00,2026-09-06 21:53:00,Resolved,8,236,Change,1
+113,INC0010113,3,4,Unexpected service restart,2026-09-06 18:52:00,2026-09-06 21:27:00,2026-09-07 21:43:00,2026-09-08 23:22:00,Resolved,8,,Unknown,1
+114,INC0010114,5,3,Unexpected service restart,2026-09-07 00:10:00,2026-09-07 01:07:00,2026-09-07 06:09:00,2026-09-07 07:41:00,Resolved,5,,Unknown,0
+115,INC0010115,9,3,Service degraded following change,2026-09-07 01:33:00,2026-09-07 03:13:00,2026-09-07 06:50:00,2026-09-07 11:00:00,Resolved,5,238,Change,1
+116,INC0010116,3,2,Service degraded following change,2026-09-08 13:17:00,2026-09-08 13:21:00,2026-09-08 17:58:00,2026-09-08 18:51:00,Resolved,2,243,Change,1
+117,INC0010117,1,4,Service crashed - unhandled exception,2026-09-09 04:31:00,2026-09-09 05:38:00,2026-09-10 00:06:00,2026-09-10 08:08:00,Resolved,7,,Software Defect,0
+118,INC0010118,7,2,Streaming CDN provider outage - online listeners dropping,2026-09-09 09:15:00,2026-09-09 09:23:00,2026-09-09 09:57:00,2026-09-09 11:38:00,Resolved,3,,Third-Party,1
+119,INC0010119,6,3,Service crashed - unhandled exception,2026-09-10 02:45:00,2026-09-10 03:11:00,2026-09-10 15:41:00,2026-09-10 22:11:00,Resolved,8,,Software Defect,1
+120,INC0010120,4,4,Aircheck logger storage full,2026-09-10 12:38:00,2026-09-10 14:38:00,2026-09-11 00:52:00,2026-09-11 10:21:00,Resolved,4,,Capacity,0
+121,INC0010121,1,2,Network program feed lost,2026-09-10 17:32:00,2026-09-10 17:43:00,2026-09-10 20:16:00,2026-09-10 20:59:00,Resolved,4,,Third-Party,1
+122,INC0010122,7,4,Service crashed - unhandled exception,2026-09-11 07:41:00,2026-09-11 07:56:00,2026-09-11 23:02:00,2026-09-12 02:52:00,Resolved,1,,Software Defect,1
+123,INC0010123,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-09-11 08:17:00,2026-09-11 08:45:00,2026-09-11 11:34:00,2026-09-11 12:27:00,Resolved,5,,Capacity,0
+124,INC0010124,5,3,Hard drive failure on server,2026-09-11 14:16:00,2026-09-11 14:37:00,2026-09-11 23:30:00,2026-09-12 00:44:00,Resolved,5,,Hardware,1
+125,INC0010125,5,3,Memory leak in worker process,2026-09-12 10:15:00,2026-09-12 10:36:00,2026-09-12 15:45:00,,Resolved,6,,Software Defect,0
+126,INC0010126,4,3,Memory leak in worker process,2026-09-12 13:11:00,2026-09-12 13:52:00,2026-09-12 15:49:00,2026-09-12 17:36:00,Resolved,6,,Software Defect,1
+127,INC0010127,2,4,Multicast audio streams dropping,2026-09-13 09:44:00,2026-09-13 10:40:00,2026-09-14 08:12:00,2026-09-14 18:46:00,Resolved,7,,Network,1
+128,INC0010128,2,4,Newsroom wire ingest stalled,2026-09-13 15:39:00,2026-09-13 17:03:00,2026-09-14 05:23:00,2026-09-14 09:29:00,Resolved,7,,Software Defect,1
+129,INC0010129,1,4,Disk usage above threshold,2026-09-15 09:34:00,2026-09-15 10:27:00,2026-09-15 18:11:00,2026-09-17 08:34:00,Resolved,1,,Capacity,1
+130,INC0010130,10,4,Intermittent network timeouts,2026-09-15 19:34:00,2026-09-15 22:30:00,2026-09-16 10:56:00,2026-09-16 19:42:00,Resolved,1,,Network,0
+131,INC0010131,6,3,Service degraded following change,2026-09-17 12:56:00,2026-09-17 13:11:00,2026-09-17 15:25:00,2026-09-17 16:04:00,Resolved,3,278,Change,1
+132,INC0010132,6,4,Unexpected service restart,2026-09-17 13:25:00,2026-09-17 15:03:00,2026-09-18 01:24:00,2026-09-18 09:13:00,Resolved,3,,Unknown,1
+133,INC0010133,3,3,Intermittent network timeouts,2026-09-17 15:34:00,2026-09-17 16:06:00,2026-09-17 20:46:00,2026-09-18 01:34:00,Resolved,3,,Network,0
+134,INC0010134,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-09-18 08:38:00,2026-09-18 08:50:00,2026-09-19 00:43:00,2026-09-19 06:00:00,Resolved,4,,Capacity,0
+135,INC0010135,1,3,High memory pressure on server,2026-09-18 13:09:00,2026-09-18 13:44:00,2026-09-18 19:20:00,2026-09-19 01:45:00,Resolved,4,,Capacity,0
+136,INC0010136,2,1,Dead air on 3 stations - AoIP multicast audio lost between playout and air chain,2026-09-18 14:03:00,2026-09-18 14:05:00,2026-09-18 14:19:00,2026-09-18 15:20:00,Resolved,4,282,Change,1
+137,INC0010137,1,4,Intermittent network timeouts,2026-09-18 14:24:00,2026-09-18 15:05:00,2026-09-19 22:10:00,2026-09-20 09:31:00,Resolved,4,,Network,0
+138,INC0010138,1,4,Network program feed lost,2026-09-19 12:43:00,2026-09-19 13:47:00,2026-09-20 07:23:00,2026-09-20 16:01:00,Resolved,5,,Third-Party,1
+139,INC0010139,6,4,Unexpected service restart,2026-09-19 17:49:00,2026-09-19 19:17:00,2026-09-20 08:27:00,2026-09-20 15:58:00,Resolved,5,,Unknown,1
+140,INC0010140,3,3,Memory leak in worker process,2026-09-20 04:54:00,2026-09-20 05:43:00,2026-09-20 06:31:00,2026-09-20 08:13:00,Resolved,2,,Software Defect,1
+141,INC0010141,10,3,Disk usage above threshold,2026-09-20 11:07:00,2026-09-20 11:48:00,2026-09-20 14:49:00,2026-09-20 15:32:00,Resolved,6,,Capacity,0
+142,INC0010142,9,4,Memory leak in worker process,2026-09-21 18:48:00,2026-09-21 22:18:00,2026-09-22 03:45:00,2026-09-22 07:27:00,Resolved,7,,Software Defect,0
+143,INC0010143,4,3,Unexpected service restart,2026-09-22 13:11:00,2026-09-22 13:25:00,2026-09-22 16:38:00,2026-09-22 20:59:00,Resolved,8,,Unknown,0
+144,INC0010144,1,4,High memory pressure on server,2026-09-23 11:52:00,2026-09-23 12:23:00,2026-09-24 20:02:00,2026-09-25 05:05:00,Resolved,,,Capacity,0
+145,INC0010145,1,4,Disk usage above threshold,2026-09-23 12:19:00,2026-09-23 13:02:00,2026-09-23 18:42:00,2026-09-24 04:58:00,Resolved,,,Capacity,0
+146,INC0010146,4,3,UPS on battery at transmitter site,2026-09-24 10:43:00,2026-09-24 11:17:00,2026-09-24 13:45:00,2026-09-24 15:20:00,Resolved,2,,Power,0
+147,INC0010147,7,2,Streaming CDN provider outage - online listeners dropping,2026-09-24 13:40:00,2026-09-24 13:47:00,2026-09-24 14:25:00,2026-09-24 16:11:00,Resolved,2,,Third-Party,1
+148,INC0010148,5,4,Traffic log merge failed,2026-09-24 18:20:00,2026-09-24 20:50:00,2026-09-25 16:06:00,2026-09-26 03:28:00,Resolved,2,,Software Defect,0
+149,INC0010149,4,3,UPS on battery at transmitter site,2026-09-25 09:11:00,2026-09-25 09:53:00,2026-09-25 16:35:00,2026-09-25 19:51:00,Resolved,3,,Power,1
+150,INC0010150,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-09-25 09:53:00,2026-09-25 10:01:00,2026-09-25 13:31:00,2026-09-25 18:33:00,Resolved,3,,Capacity,0
+151,INC0010151,1,3,Playout stuck after software update,2026-09-25 18:36:00,2026-09-25 18:59:00,2026-09-25 23:20:00,2026-09-26 00:14:00,Resolved,3,310,Change,1
+152,INC0010152,6,4,Unexpected service restart,2026-09-26 11:23:00,2026-09-26 12:18:00,2026-09-28 17:31:00,2026-09-28 21:04:00,Resolved,4,,Unknown,0
+153,INC0010153,6,2,Service degraded following change,2026-09-26 18:04:00,2026-09-26 18:09:00,2026-09-26 19:36:00,2026-09-26 20:33:00,Resolved,4,313,Change,1
+154,INC0010154,7,3,Memory leak in worker process,2026-09-27 13:48:00,2026-09-27 14:00:00,2026-09-27 16:20:00,2026-09-27 22:57:00,Resolved,5,,Software Defect,1
+155,INC0010155,5,3,Intermittent network timeouts,2026-09-28 22:33:00,2026-09-28 23:34:00,2026-09-29 06:52:00,2026-09-29 11:16:00,Resolved,3,,Network,1
+156,INC0010156,9,4,Playout skipped scheduled spots,2026-09-29 04:03:00,2026-09-29 05:11:00,2026-09-29 17:02:00,2026-09-30 09:47:00,Resolved,3,,Software Defect,0
+157,INC0010157,1,3,Playout skipped scheduled spots,2026-09-30 16:44:00,2026-09-30 17:20:00,2026-09-30 23:06:00,2026-10-01 06:12:00,Resolved,8,,Software Defect,1
+158,INC0010158,10,4,Newsroom wire ingest backlog growing,2026-09-30 22:15:00,2026-09-30 22:57:00,2026-10-01 11:16:00,,Mitigated,5,,Capacity,0
+159,INC0010159,1,2,Playout server WIN-PLY-SRV03 not responding - 2 stations running on backup playout,2026-10-01 05:40:00,2026-10-01 05:44:00,,,Open,5,,Unknown,0
+160,INC0010160,6,3,Disk /data > 95% on LNX-ENC03 - aircheck recordings not purged,2026-10-01 06:55:00,,,,Open,5,,Capacity,0

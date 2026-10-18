@@ -1,0 +1,5 @@
+severity,severity_label,ack_target_minutes,resolve_target_minutes,client_comms_minutes
+1,SEV1,5,240,15
+2,SEV2,15,480,30
+3,SEV3,60,1440,
+4,SEV4,240,4320,

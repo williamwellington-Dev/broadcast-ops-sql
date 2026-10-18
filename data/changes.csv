@@ -1,0 +1,328 @@
+change_id,change_number,service_id,change_type,risk,summary,implementer_id,planned_start,actual_start,actual_end,outcome
+1,CHG0005001,5,Standard,Low,Renew internal certificate,3,2026-07-01 09:15:00,,,Cancelled
+2,CHG0005002,7,Standard,Low,Apply monthly Windows patches,1,2026-07-01 12:15:00,2026-07-01 12:18:00,2026-07-01 13:40:00,Successful
+3,CHG0005003,3,Standard,Low,Apply monthly Windows patches,7,2026-07-01 12:30:00,2026-07-01 12:42:00,2026-07-01 13:14:00,Successful
+4,CHG0005004,4,Standard,Low,Weekly generator exercise at transmitter site,11,2026-07-01 14:15:00,2026-07-01 14:21:00,2026-07-01 14:54:00,Successful
+5,CHG0005005,8,Normal,Medium,Update AoIP routing and multicast configuration,4,2026-07-01 14:30:00,2026-07-01 14:32:00,2026-07-01 15:08:00,Successful
+6,CHG0005006,10,Standard,Low,Replace UPS battery string,7,2026-07-02 11:45:00,2026-07-02 11:48:00,2026-07-02 12:02:00,Successful
+7,CHG0005007,4,Standard,Low,Replace UPS battery string,10,2026-07-02 16:15:00,2026-07-02 16:22:00,2026-07-02 16:54:00,Successful
+8,CHG0005008,4,Normal,Low,Reconfigure backup air chain,3,2026-07-02 23:00:00,2026-07-02 23:17:00,2026-07-03 01:49:00,Successful
+9,CHG0005009,2,Normal,Medium,Apply SQL Server cumulative update,12,2026-07-02 23:30:00,2026-07-02 23:40:00,2026-07-03 00:28:00,Successful
+10,CHG0005010,5,Normal,Medium,Deploy playout software update,4,2026-07-03 14:00:00,2026-07-03 14:00:00,2026-07-03 14:36:00,Successful
+11,CHG0005011,9,Emergency,High,Emergency core switch configuration change,3,2026-07-03 16:32:00,2026-07-03 16:35:00,2026-07-03 17:22:00,Successful
+12,CHG0005012,1,Standard,Low,Apply monthly Windows patches,6,2026-07-04 09:15:00,2026-07-04 09:17:00,2026-07-04 09:41:00,Successful
+13,CHG0005013,10,Normal,Low,Update EAS ENDEC firmware,10,2026-07-04 22:30:00,2026-07-04 22:34:00,2026-07-04 23:07:00,Successful
+14,CHG0005014,9,Emergency,High,Hotfix for playout crash,8,2026-07-04 23:32:00,2026-07-04 23:41:00,2026-07-05 00:04:00,Successful
+15,CHG0005015,7,Standard,Low,Replace UPS battery string,3,2026-07-05 10:00:00,2026-07-05 10:10:00,2026-07-05 10:37:00,Successful
+16,CHG0005016,4,Standard,Low,Apply monthly Windows patches,7,2026-07-05 10:45:00,2026-07-05 11:05:00,2026-07-05 11:34:00,Successful
+17,CHG0005017,6,Standard,Low,Replace UPS battery string,7,2026-07-05 12:15:00,2026-07-05 12:30:00,2026-07-05 12:58:00,Successful
+18,CHG0005018,1,Standard,Low,Weekly generator exercise at transmitter site,8,2026-07-05 15:30:00,2026-07-05 15:43:00,2026-07-05 16:20:00,Successful
+19,CHG0005019,2,Emergency,High,Hotfix for playout crash,2,2026-07-06 08:08:00,2026-07-06 08:12:00,2026-07-06 08:49:00,Successful
+20,CHG0005020,10,Standard,Low,Apply monthly Windows patches,9,2026-07-06 09:30:00,2026-07-06 09:48:00,2026-07-06 10:04:00,Successful
+21,CHG0005021,1,Normal,High,Apply SQL Server cumulative update,10,2026-07-06 22:00:00,2026-07-06 22:18:00,2026-07-06 22:53:00,Successful
+22,CHG0005022,5,Standard,Low,Renew internal certificate,4,2026-07-07 13:00:00,2026-07-07 13:03:00,2026-07-07 13:24:00,Successful
+23,CHG0005023,4,Standard,Low,Apply monthly Windows patches,3,2026-07-07 15:00:00,2026-07-07 15:04:00,2026-07-07 15:29:00,Successful
+24,CHG0005024,5,Normal,Medium,Firmware update on STL codec,5,2026-07-07 22:00:00,2026-07-07 22:08:00,2026-07-07 22:45:00,Successful
+25,CHG0005025,3,Normal,Low,Firewall rule update for streaming CDN,3,2026-07-07 23:30:00,,,Cancelled
+26,CHG0005026,10,Standard,Low,Renew internal certificate,10,2026-07-08 09:30:00,2026-07-08 09:37:00,2026-07-08 10:02:00,Successful
+27,CHG0005027,7,Standard,Low,Weekly generator exercise at transmitter site,11,2026-07-08 10:45:00,2026-07-08 10:52:00,2026-07-08 11:02:00,Successful
+28,CHG0005028,9,Standard,Low,Weekly generator exercise at transmitter site,12,2026-07-08 11:15:00,2026-07-08 11:20:00,2026-07-08 11:47:00,Successful
+29,CHG0005029,9,Standard,Low,Rotate aircheck logger storage,10,2026-07-09 13:30:00,2026-07-09 13:47:00,2026-07-09 14:04:00,Successful
+30,CHG0005030,5,Standard,Low,Renew internal certificate,12,2026-07-09 14:30:00,2026-07-09 14:46:00,2026-07-09 15:04:00,Successful
+31,CHG0005031,2,Normal,Medium,Traffic system release,5,2026-07-09 16:30:00,,,Cancelled
+32,CHG0005032,3,Normal,Medium,Firewall rule update for streaming CDN,7,2026-07-09 22:30:00,2026-07-09 22:33:00,2026-07-09 23:52:00,Successful
+33,CHG0005033,6,Standard,Low,Replace UPS battery string,4,2026-07-10 14:00:00,,,Cancelled
+34,CHG0005034,10,Standard,Low,Replace UPS battery string,6,2026-07-10 16:00:00,2026-07-10 16:14:00,2026-07-10 16:25:00,Successful
+35,CHG0005035,5,Normal,High,Update AoIP routing and multicast configuration,11,2026-07-10 23:30:00,2026-07-10 23:36:00,2026-07-11 00:39:00,Successful
+36,CHG0005036,7,Normal,Medium,Traffic system release,7,2026-07-10 23:30:00,2026-07-10 23:42:00,2026-07-11 00:42:00,RolledBack
+37,CHG0005037,3,Normal,Medium,Firmware update on STL codec,12,2026-07-11 22:30:00,2026-07-11 22:40:00,2026-07-11 23:23:00,Successful
+38,CHG0005038,9,Normal,Medium,Reconfigure backup air chain,9,2026-07-11 23:30:00,2026-07-11 23:45:00,2026-07-12 00:35:00,Successful
+39,CHG0005039,1,Normal,High,Deploy playout software update,12,2026-07-11 23:30:00,2026-07-11 23:31:00,2026-07-12 00:10:00,Successful
+40,CHG0005040,7,Normal,Low,Traffic system release,10,2026-07-11 23:30:00,2026-07-11 23:39:00,2026-07-12 01:36:00,Successful
+41,CHG0005041,5,Emergency,Medium,Replace failed exciter module,6,2026-07-12 02:51:00,2026-07-12 03:05:00,2026-07-12 03:26:00,Successful
+42,CHG0005042,4,Standard,Low,Apply monthly Windows patches,9,2026-07-12 09:45:00,2026-07-12 09:57:00,2026-07-12 11:04:00,Successful
+43,CHG0005043,1,Standard,Low,Renew internal certificate,8,2026-07-12 12:15:00,2026-07-12 12:19:00,2026-07-12 12:32:00,Successful
+44,CHG0005044,10,Standard,Low,Renew internal certificate,2,2026-07-12 15:30:00,2026-07-12 15:30:00,2026-07-12 15:55:00,Successful
+45,CHG0005045,6,Standard,Low,Update antivirus definitions,12,2026-07-13 10:30:00,2026-07-13 10:45:00,2026-07-13 11:24:00,Successful
+46,CHG0005046,2,Normal,Medium,Update EAS ENDEC firmware,7,2026-07-13 14:00:00,2026-07-13 14:03:00,2026-07-13 16:38:00,Successful
+47,CHG0005047,2,Emergency,Medium,Emergency core switch configuration change,1,2026-07-13 21:24:00,2026-07-13 21:33:00,2026-07-13 22:37:00,Successful
+48,CHG0005048,1,Standard,Low,Renew internal certificate,7,2026-07-14 13:15:00,2026-07-14 13:22:00,2026-07-14 13:35:00,Successful
+49,CHG0005049,5,Normal,Medium,Firewall rule update for streaming CDN,6,2026-07-14 16:30:00,2026-07-14 16:45:00,2026-07-14 18:12:00,Successful
+50,CHG0005050,8,Standard,Low,Weekly generator exercise at transmitter site,8,2026-07-14 16:45:00,2026-07-14 17:03:00,2026-07-14 17:08:00,Successful
+51,CHG0005051,6,Normal,Medium,Reconfigure backup air chain,11,2026-07-14 23:00:00,2026-07-14 23:07:00,2026-07-15 00:34:00,Successful
+52,CHG0005052,3,Normal,Medium,Firmware update on STL codec,12,2026-07-14 23:30:00,2026-07-14 23:37:00,2026-07-15 00:17:00,Successful
+53,CHG0005053,4,Standard,Low,Apply monthly Windows patches,1,2026-07-15 13:00:00,2026-07-15 13:07:00,2026-07-15 13:24:00,Successful
+54,CHG0005054,1,Standard,Low,Update antivirus definitions,10,2026-07-15 16:00:00,2026-07-15 16:04:00,2026-07-15 16:16:00,Successful
+55,CHG0005055,6,Normal,Low,Reconfigure backup air chain,5,2026-07-15 22:30:00,2026-07-15 22:48:00,2026-07-15 23:30:00,Successful
+56,CHG0005056,9,Standard,Low,Apply monthly Windows patches,3,2026-07-16 10:15:00,2026-07-16 10:33:00,2026-07-16 10:50:00,Successful
+57,CHG0005057,1,Standard,Low,Renew internal certificate,5,2026-07-16 12:15:00,2026-07-16 12:15:00,2026-07-16 12:31:00,Successful
+58,CHG0005058,3,Normal,High,Traffic system release,4,2026-07-16 23:30:00,2026-07-16 23:48:00,2026-07-17 01:06:00,Successful
+59,CHG0005059,3,Standard,Low,Rotate aircheck logger storage,12,2026-07-17 13:45:00,2026-07-17 13:54:00,2026-07-17 14:14:00,RolledBack
+60,CHG0005060,1,Normal,Medium,Firmware update on STL codec,5,2026-07-17 22:00:00,2026-07-17 22:01:00,2026-07-17 23:20:00,Successful
+61,CHG0005061,8,Standard,Low,Rotate aircheck logger storage,8,2026-07-18 10:45:00,2026-07-18 10:55:00,2026-07-18 11:12:00,Successful
+62,CHG0005062,6,Standard,Low,Apply monthly Windows patches,8,2026-07-18 12:15:00,2026-07-18 12:15:00,2026-07-18 12:36:00,Successful
+63,CHG0005063,4,Normal,High,Reconfigure backup air chain,1,2026-07-18 14:00:00,2026-07-18 14:10:00,2026-07-18 14:57:00,Successful
+64,CHG0005064,2,Standard,Low,Apply monthly Windows patches,8,2026-07-18 14:45:00,2026-07-18 14:51:00,2026-07-18 15:07:00,Successful
+65,CHG0005065,4,Standard,Low,Rotate aircheck logger storage,2,2026-07-19 11:45:00,2026-07-19 12:00:00,2026-07-19 12:28:00,Successful
+66,CHG0005066,7,Standard,Low,Replace UPS battery string,3,2026-07-19 15:30:00,2026-07-19 15:39:00,2026-07-19 16:45:00,Successful
+67,CHG0005067,3,Standard,Low,Replace UPS battery string,12,2026-07-19 15:45:00,2026-07-19 15:52:00,2026-07-19 16:14:00,Successful
+68,CHG0005068,4,Normal,Medium,Update AoIP routing and multicast configuration,3,2026-07-19 16:30:00,2026-07-19 16:45:00,2026-07-19 17:49:00,Successful
+69,CHG0005069,8,Normal,High,Update AoIP routing and multicast configuration,8,2026-07-19 23:00:00,2026-07-19 23:04:00,2026-07-20 00:04:00,Successful
+70,CHG0005070,7,Emergency,Medium,Patch critical CVE,7,2026-07-20 03:25:00,2026-07-20 03:34:00,2026-07-20 04:17:00,Failed
+71,CHG0005071,5,Standard,Low,Update antivirus definitions,1,2026-07-20 13:30:00,2026-07-20 13:42:00,2026-07-20 13:55:00,Successful
+72,CHG0005072,2,Normal,High,Firewall rule update for streaming CDN,8,2026-07-20 22:00:00,2026-07-20 22:07:00,2026-07-20 23:07:00,Successful
+73,CHG0005073,3,Normal,Low,Update EAS ENDEC firmware,2,2026-07-20 23:30:00,2026-07-20 23:32:00,2026-07-21 00:01:00,Successful
+74,CHG0005074,9,Normal,Medium,Update AoIP routing and multicast configuration,8,2026-07-20 23:30:00,2026-07-20 23:44:00,2026-07-21 01:05:00,Successful
+75,CHG0005075,9,Standard,Low,Weekly generator exercise at transmitter site,11,2026-07-21 13:15:00,2026-07-21 13:35:00,2026-07-21 13:49:00,Successful
+76,CHG0005076,6,Standard,Low,Renew internal certificate,8,2026-07-21 14:00:00,2026-07-21 14:00:00,2026-07-21 14:14:00,Successful
+77,CHG0005077,1,Standard,Low,Apply monthly Windows patches,8,2026-07-21 14:30:00,2026-07-21 14:45:00,2026-07-21 15:20:00,Successful
+78,CHG0005078,10,Standard,Low,Update antivirus definitions,5,2026-07-21 15:30:00,2026-07-21 15:30:00,2026-07-21 15:46:00,Successful
+79,CHG0005079,9,Normal,Medium,Update EAS ENDEC firmware,12,2026-07-21 16:00:00,2026-07-21 16:01:00,2026-07-21 17:18:00,Successful
+80,CHG0005080,1,Normal,Medium,Apply SQL Server cumulative update,1,2026-07-22 16:30:00,2026-07-22 16:42:00,2026-07-22 17:20:00,Successful
+81,CHG0005081,1,Normal,Medium,Update EAS ENDEC firmware,9,2026-07-22 22:00:00,2026-07-22 22:03:00,2026-07-22 22:37:00,Successful
+82,CHG0005082,6,Normal,High,Traffic system release,8,2026-07-22 23:00:00,2026-07-22 23:13:00,2026-07-23 00:54:00,Successful
+83,CHG0005083,10,Standard,Low,Weekly generator exercise at transmitter site,1,2026-07-23 11:30:00,2026-07-23 11:30:00,2026-07-23 11:42:00,Successful
+84,CHG0005084,1,Standard,Low,Apply monthly Windows patches,10,2026-07-23 15:00:00,2026-07-23 15:14:00,2026-07-23 15:47:00,Successful
+85,CHG0005085,7,Emergency,High,Hotfix for playout crash,10,2026-07-23 17:27:00,2026-07-23 17:33:00,2026-07-23 18:16:00,Successful
+86,CHG0005086,5,Standard,Low,Apply monthly Windows patches,12,2026-07-24 10:00:00,2026-07-24 10:14:00,2026-07-24 10:49:00,Successful
+87,CHG0005087,1,Standard,Low,Rotate aircheck logger storage,9,2026-07-24 11:00:00,2026-07-24 11:19:00,2026-07-24 11:45:00,Successful
+88,CHG0005088,3,Standard,Low,Update antivirus definitions,9,2026-07-24 13:30:00,2026-07-24 13:45:00,2026-07-24 14:44:00,Successful
+89,CHG0005089,9,Normal,High,Reconfigure backup air chain,8,2026-07-24 14:30:00,2026-07-24 14:30:00,2026-07-24 14:59:00,Successful
+90,CHG0005090,1,Standard,Low,Weekly generator exercise at transmitter site,8,2026-07-24 14:45:00,2026-07-24 15:04:00,2026-07-24 15:21:00,Successful
+91,CHG0005091,5,Standard,Low,Renew internal certificate,11,2026-07-25 10:30:00,,,Cancelled
+92,CHG0005092,2,Standard,Low,Apply monthly Windows patches,11,2026-07-25 13:30:00,2026-07-25 13:35:00,2026-07-25 14:17:00,Successful
+93,CHG0005093,6,Standard,Low,Rotate aircheck logger storage,2,2026-07-26 10:30:00,2026-07-26 10:43:00,2026-07-26 11:03:00,Successful
+94,CHG0005094,2,Normal,Medium,Firmware update on STL codec,1,2026-07-26 23:30:00,2026-07-26 23:41:00,2026-07-27 00:28:00,Successful
+95,CHG0005095,4,Standard,Low,Update antivirus definitions,9,2026-07-27 10:45:00,2026-07-27 10:55:00,2026-07-27 11:02:00,Successful
+96,CHG0005096,1,Standard,Low,Update antivirus definitions,7,2026-07-27 12:30:00,2026-07-27 12:31:00,2026-07-27 12:49:00,Successful
+97,CHG0005097,6,Standard,Low,Weekly generator exercise at transmitter site,2,2026-07-27 13:00:00,2026-07-27 13:10:00,2026-07-27 13:28:00,Successful
+98,CHG0005098,6,Standard,Low,Renew internal certificate,8,2026-07-27 16:30:00,2026-07-27 16:42:00,2026-07-27 17:35:00,Successful
+99,CHG0005099,5,Standard,Low,Update antivirus definitions,2,2026-07-28 13:45:00,2026-07-28 13:46:00,2026-07-28 14:03:00,Successful
+100,CHG0005100,7,Standard,Low,Update antivirus definitions,5,2026-07-28 16:45:00,2026-07-28 17:03:00,2026-07-28 17:18:00,Successful
+101,CHG0005101,3,Emergency,Medium,Hotfix for playout crash,11,2026-07-28 22:01:00,2026-07-28 22:04:00,2026-07-28 22:25:00,Successful
+102,CHG0005102,6,Standard,Low,Rotate aircheck logger storage,7,2026-07-29 09:15:00,2026-07-29 09:31:00,2026-07-29 09:51:00,Successful
+103,CHG0005103,4,Standard,Low,Renew internal certificate,6,2026-07-29 09:45:00,2026-07-29 10:04:00,2026-07-29 10:24:00,Successful
+104,CHG0005104,5,Standard,Low,Rotate aircheck logger storage,11,2026-07-29 11:30:00,2026-07-29 11:42:00,2026-07-29 11:49:00,Successful
+105,CHG0005105,1,Normal,Low,Firmware update on STL codec,10,2026-07-29 16:30:00,2026-07-29 16:33:00,2026-07-29 17:38:00,Successful
+106,CHG0005106,1,Standard,Low,Weekly generator exercise at transmitter site,7,2026-07-30 10:30:00,2026-07-30 10:47:00,2026-07-30 10:58:00,Successful
+107,CHG0005107,8,Standard,Low,Replace UPS battery string,12,2026-07-30 11:45:00,2026-07-30 11:56:00,2026-07-30 12:20:00,Successful
+108,CHG0005108,8,Normal,High,Traffic system release,8,2026-07-30 16:00:00,2026-07-30 16:11:00,2026-07-30 16:44:00,Successful
+109,CHG0005109,8,Emergency,Medium,Hotfix for playout crash,9,2026-07-31 04:43:00,2026-07-31 05:03:00,2026-07-31 05:32:00,Successful
+110,CHG0005110,7,Standard,Low,Replace UPS battery string,1,2026-07-31 13:45:00,2026-07-31 13:47:00,2026-07-31 14:20:00,Successful
+111,CHG0005111,3,Standard,Low,Replace UPS battery string,9,2026-07-31 16:15:00,2026-07-31 16:33:00,2026-07-31 17:16:00,Successful
+112,CHG0005112,3,Standard,Low,Weekly generator exercise at transmitter site,3,2026-08-01 15:00:00,2026-08-01 15:00:00,2026-08-01 15:17:00,Successful
+113,CHG0005113,9,Standard,Low,Replace UPS battery string,9,2026-08-01 16:15:00,2026-08-01 16:34:00,2026-08-01 16:40:00,Successful
+114,CHG0005114,5,Normal,Medium,Apply SQL Server cumulative update,2,2026-08-02 16:00:00,2026-08-02 16:00:00,2026-08-02 17:08:00,Successful
+115,CHG0005115,2,Normal,Medium,Deploy playout software update,10,2026-08-02 22:00:00,2026-08-02 22:20:00,2026-08-02 23:55:00,Successful
+116,CHG0005116,7,Standard,Low,Renew internal certificate,8,2026-08-03 10:30:00,2026-08-03 10:41:00,2026-08-03 11:06:00,Successful
+117,CHG0005117,5,Emergency,High,Hotfix for playout crash,6,2026-08-03 17:19:00,2026-08-03 17:34:00,2026-08-03 17:50:00,Successful
+118,CHG0005118,9,Standard,Low,Weekly generator exercise at transmitter site,6,2026-08-04 09:30:00,2026-08-04 09:41:00,2026-08-04 09:59:00,Successful
+119,CHG0005119,4,Standard,Low,Rotate aircheck logger storage,2,2026-08-04 13:00:00,2026-08-04 13:13:00,2026-08-04 13:46:00,Successful
+120,CHG0005120,3,Normal,Medium,Firewall rule update for streaming CDN,7,2026-08-04 14:30:00,2026-08-04 14:44:00,2026-08-04 15:37:00,Successful
+121,CHG0005121,8,Normal,Low,Traffic system release,11,2026-08-04 22:30:00,2026-08-04 22:36:00,2026-08-05 01:58:00,Successful
+122,CHG0005122,4,Emergency,Medium,Roll back codec firmware,5,2026-08-05 09:15:00,2026-08-05 09:29:00,2026-08-05 10:18:00,Successful
+123,CHG0005123,5,Standard,Low,Rotate aircheck logger storage,11,2026-08-05 11:45:00,2026-08-05 11:59:00,2026-08-05 12:33:00,Successful
+124,CHG0005124,1,Standard,Low,Renew internal certificate,5,2026-08-05 11:45:00,2026-08-05 11:48:00,2026-08-05 12:03:00,Successful
+125,CHG0005125,10,Emergency,High,Emergency core switch configuration change,6,2026-08-05 14:55:00,2026-08-05 15:00:00,2026-08-05 15:46:00,Failed
+126,CHG0005126,9,Normal,Medium,Apply SQL Server cumulative update,1,2026-08-05 16:00:00,2026-08-05 16:07:00,2026-08-05 16:47:00,Successful
+127,CHG0005127,9,Standard,Low,Rotate aircheck logger storage,9,2026-08-06 09:00:00,2026-08-06 09:05:00,2026-08-06 09:25:00,Successful
+128,CHG0005128,3,Standard,Low,Apply monthly Windows patches,1,2026-08-06 10:15:00,2026-08-06 10:34:00,2026-08-06 11:06:00,Successful
+129,CHG0005129,3,Standard,Low,Weekly generator exercise at transmitter site,3,2026-08-06 10:45:00,2026-08-06 11:01:00,2026-08-06 11:08:00,Successful
+130,CHG0005130,4,Normal,Low,Update AoIP routing and multicast configuration,7,2026-08-06 14:00:00,2026-08-06 14:09:00,2026-08-06 14:53:00,Successful
+131,CHG0005131,7,Emergency,High,Emergency core switch configuration change,7,2026-08-07 11:35:00,2026-08-07 11:55:00,2026-08-07 12:28:00,Failed
+132,CHG0005132,6,Standard,Low,Rotate aircheck logger storage,12,2026-08-07 11:45:00,2026-08-07 11:59:00,2026-08-07 12:09:00,Successful
+133,CHG0005133,5,Emergency,Medium,Patch critical CVE,5,2026-08-08 07:20:00,2026-08-08 07:21:00,2026-08-08 07:40:00,Successful
+134,CHG0005134,3,Standard,Low,Update antivirus definitions,7,2026-08-08 10:30:00,2026-08-08 10:33:00,2026-08-08 10:48:00,Successful
+135,CHG0005135,10,Standard,Low,Apply monthly Windows patches,1,2026-08-08 11:30:00,2026-08-08 11:35:00,2026-08-08 11:55:00,Successful
+136,CHG0005136,1,Standard,Low,Update antivirus definitions,8,2026-08-08 11:30:00,2026-08-08 11:41:00,2026-08-08 12:03:00,Successful
+137,CHG0005137,6,Normal,Medium,Deploy playout software update,7,2026-08-09 14:00:00,2026-08-09 14:12:00,2026-08-09 15:17:00,Successful
+138,CHG0005138,1,Standard,Low,Update antivirus definitions,5,2026-08-09 14:45:00,2026-08-09 15:04:00,2026-08-09 15:38:00,Successful
+139,CHG0005139,8,Standard,Low,Renew internal certificate,12,2026-08-09 16:30:00,2026-08-09 16:41:00,2026-08-09 16:58:00,Successful
+140,CHG0005140,10,Standard,Low,Replace UPS battery string,10,2026-08-10 10:15:00,2026-08-10 10:25:00,2026-08-10 10:43:00,Successful
+141,CHG0005141,4,Standard,Low,Weekly generator exercise at transmitter site,11,2026-08-10 12:00:00,2026-08-10 12:16:00,2026-08-10 12:43:00,Successful
+142,CHG0005142,10,Normal,Medium,Firewall rule update for streaming CDN,3,2026-08-10 16:30:00,2026-08-10 16:48:00,2026-08-10 18:05:00,Successful
+143,CHG0005143,7,Normal,Medium,Firewall rule update for streaming CDN,12,2026-08-10 22:00:00,2026-08-10 22:10:00,2026-08-10 23:06:00,Successful
+144,CHG0005144,2,Normal,Medium,Apply SQL Server cumulative update,8,2026-08-10 22:30:00,2026-08-10 22:39:00,2026-08-11 00:51:00,Successful
+145,CHG0005145,1,Standard,Low,Weekly generator exercise at transmitter site,9,2026-08-11 12:15:00,2026-08-11 12:28:00,2026-08-11 12:43:00,Successful
+146,CHG0005146,6,Standard,Low,Update antivirus definitions,12,2026-08-11 14:45:00,2026-08-11 15:00:00,2026-08-11 15:13:00,Successful
+147,CHG0005147,2,Emergency,High,Hotfix for playout crash,1,2026-08-12 06:00:00,2026-08-12 06:15:00,2026-08-12 06:25:00,Successful
+148,CHG0005148,5,Standard,Low,Weekly generator exercise at transmitter site,5,2026-08-12 14:30:00,2026-08-12 14:47:00,2026-08-12 15:11:00,Successful
+149,CHG0005149,3,Normal,Medium,Firmware update on STL codec,4,2026-08-12 16:30:00,2026-08-12 16:35:00,2026-08-12 17:07:00,Successful
+150,CHG0005150,9,Normal,Medium,Deploy playout software update,4,2026-08-12 23:30:00,2026-08-12 23:40:00,2026-08-13 00:29:00,Successful
+151,CHG0005151,7,Standard,Low,Replace UPS battery string,3,2026-08-13 14:30:00,2026-08-13 14:50:00,2026-08-13 15:07:00,Successful
+152,CHG0005152,5,Standard,Low,Update antivirus definitions,1,2026-08-13 16:15:00,2026-08-13 16:34:00,2026-08-13 16:51:00,Successful
+153,CHG0005153,9,Normal,Low,Apply SQL Server cumulative update,8,2026-08-13 16:30:00,2026-08-13 16:39:00,2026-08-13 17:31:00,Successful
+154,CHG0005154,9,Normal,Low,Update EAS ENDEC firmware,5,2026-08-13 23:30:00,2026-08-13 23:33:00,2026-08-14 00:17:00,Successful
+155,CHG0005155,1,Standard,Low,Replace UPS battery string,11,2026-08-14 09:00:00,2026-08-14 09:09:00,2026-08-14 09:23:00,Successful
+156,CHG0005156,4,Standard,Low,Replace UPS battery string,1,2026-08-14 09:45:00,2026-08-14 09:45:00,2026-08-14 09:57:00,Successful
+157,CHG0005157,5,Standard,Low,Replace UPS battery string,1,2026-08-14 11:30:00,2026-08-14 11:36:00,2026-08-14 12:05:00,Successful
+158,CHG0005158,9,Standard,Low,Rotate aircheck logger storage,1,2026-08-14 16:45:00,2026-08-14 17:02:00,2026-08-14 17:20:00,Successful
+159,CHG0005159,2,Standard,Low,Rotate aircheck logger storage,4,2026-08-15 12:00:00,2026-08-15 12:09:00,2026-08-15 12:32:00,Successful
+160,CHG0005160,10,Normal,High,Update EAS ENDEC firmware,11,2026-08-15 14:00:00,2026-08-15 14:08:00,2026-08-15 15:20:00,Successful
+161,CHG0005161,5,Normal,Medium,Deploy playout software update,2,2026-08-15 14:30:00,2026-08-15 14:44:00,2026-08-15 15:34:00,Successful
+162,CHG0005162,4,Normal,Medium,Deploy playout software update,4,2026-08-15 22:00:00,2026-08-15 22:03:00,2026-08-15 23:12:00,Successful
+163,CHG0005163,3,Standard,Low,Weekly generator exercise at transmitter site,1,2026-08-16 09:00:00,2026-08-16 09:17:00,2026-08-16 09:32:00,Successful
+164,CHG0005164,4,Standard,Low,Apply monthly Windows patches,8,2026-08-16 11:30:00,2026-08-16 11:47:00,2026-08-16 12:04:00,Successful
+165,CHG0005165,10,Normal,High,Traffic system release,2,2026-08-16 14:00:00,2026-08-16 14:08:00,2026-08-16 14:37:00,Successful
+166,CHG0005166,10,Emergency,High,Replace failed exciter module,5,2026-08-16 16:10:00,2026-08-16 16:29:00,2026-08-16 17:09:00,Successful
+167,CHG0005167,2,Standard,Low,Weekly generator exercise at transmitter site,12,2026-08-17 09:00:00,2026-08-17 09:01:00,2026-08-17 09:30:00,Successful
+168,CHG0005168,1,Standard,Low,Weekly generator exercise at transmitter site,6,2026-08-17 12:15:00,2026-08-17 12:32:00,2026-08-17 13:21:00,Successful
+169,CHG0005169,3,Standard,Low,Rotate aircheck logger storage,4,2026-08-17 13:30:00,2026-08-17 13:33:00,2026-08-17 14:24:00,Successful
+170,CHG0005170,8,Standard,Low,Renew internal certificate,3,2026-08-17 16:30:00,2026-08-17 16:50:00,2026-08-17 17:19:00,Successful
+171,CHG0005171,4,Standard,Low,Rotate aircheck logger storage,12,2026-08-18 09:45:00,,,Cancelled
+172,CHG0005172,3,Standard,Low,Replace UPS battery string,5,2026-08-18 15:15:00,2026-08-18 15:31:00,2026-08-18 15:45:00,Successful
+173,CHG0005173,4,Standard,Low,Replace UPS battery string,7,2026-08-19 12:15:00,2026-08-19 12:17:00,2026-08-19 13:08:00,Successful
+174,CHG0005174,1,Normal,Low,Deploy playout software update,9,2026-08-19 22:00:00,2026-08-19 22:13:00,2026-08-19 23:25:00,Successful
+175,CHG0005175,7,Standard,Low,Replace UPS battery string,10,2026-08-20 10:30:00,2026-08-20 10:43:00,2026-08-20 10:59:00,Successful
+176,CHG0005176,5,Emergency,High,Emergency core switch configuration change,9,2026-08-20 13:35:00,2026-08-20 13:40:00,2026-08-20 14:14:00,Successful
+177,CHG0005177,9,Standard,Low,Apply monthly Windows patches,6,2026-08-20 16:30:00,2026-08-20 16:38:00,2026-08-20 17:22:00,Successful
+178,CHG0005178,2,Standard,Low,Apply monthly Windows patches,2,2026-08-21 10:00:00,2026-08-21 10:12:00,2026-08-21 10:45:00,Successful
+179,CHG0005179,3,Standard,Low,Apply monthly Windows patches,1,2026-08-21 14:30:00,2026-08-21 14:32:00,2026-08-21 14:44:00,Successful
+180,CHG0005180,3,Standard,Low,Update antivirus definitions,2,2026-08-21 16:45:00,2026-08-21 17:02:00,2026-08-21 17:41:00,Successful
+181,CHG0005181,2,Standard,Low,Replace UPS battery string,6,2026-08-22 16:15:00,2026-08-22 16:19:00,2026-08-22 16:33:00,Successful
+182,CHG0005182,5,Normal,Low,Firmware update on STL codec,4,2026-08-22 23:30:00,2026-08-22 23:43:00,2026-08-23 00:37:00,Successful
+183,CHG0005183,2,Normal,Medium,Apply SQL Server cumulative update,2,2026-08-22 23:30:00,2026-08-22 23:34:00,2026-08-23 00:05:00,Successful
+184,CHG0005184,1,Emergency,High,Emergency core switch configuration change,4,2026-08-23 11:25:00,2026-08-23 11:30:00,2026-08-23 11:47:00,Successful
+185,CHG0005185,8,Standard,Low,Replace UPS battery string,12,2026-08-23 15:30:00,2026-08-23 15:36:00,2026-08-23 16:00:00,Successful
+186,CHG0005186,5,Standard,Low,Update antivirus definitions,12,2026-08-23 15:30:00,2026-08-23 15:30:00,2026-08-23 15:43:00,Successful
+187,CHG0005187,5,Standard,Low,Rotate aircheck logger storage,11,2026-08-23 15:45:00,2026-08-23 16:02:00,2026-08-23 16:53:00,Successful
+188,CHG0005188,2,Emergency,High,Hotfix for playout crash,7,2026-08-23 23:38:00,2026-08-23 23:53:00,2026-08-24 00:12:00,RolledBack
+189,CHG0005189,4,Standard,Low,Replace UPS battery string,9,2026-08-24 11:30:00,2026-08-24 11:33:00,2026-08-24 12:00:00,Successful
+190,CHG0005190,1,Standard,Low,Weekly generator exercise at transmitter site,11,2026-08-24 16:30:00,2026-08-24 16:31:00,2026-08-24 16:58:00,Successful
+191,CHG0005191,7,Emergency,High,Replace failed exciter module,3,2026-08-24 18:50:00,2026-08-24 19:07:00,2026-08-24 19:34:00,Successful
+192,CHG0005192,4,Standard,Low,Apply monthly Windows patches,10,2026-08-25 10:30:00,2026-08-25 10:49:00,2026-08-25 10:57:00,Successful
+193,CHG0005193,9,Standard,Low,Update antivirus definitions,6,2026-08-25 11:30:00,2026-08-25 11:44:00,2026-08-25 11:51:00,Successful
+194,CHG0005194,6,Standard,Low,Update antivirus definitions,2,2026-08-25 12:45:00,2026-08-25 12:45:00,2026-08-25 13:10:00,Successful
+195,CHG0005195,3,Normal,Low,Update EAS ENDEC firmware,7,2026-08-25 22:30:00,2026-08-25 22:41:00,2026-08-26 00:05:00,Successful
+196,CHG0005196,5,Standard,Low,Replace UPS battery string,4,2026-08-26 11:15:00,2026-08-26 11:19:00,2026-08-26 12:02:00,Successful
+197,CHG0005197,5,Standard,Low,Weekly generator exercise at transmitter site,9,2026-08-26 11:45:00,2026-08-26 12:01:00,2026-08-26 12:12:00,Successful
+198,CHG0005198,5,Emergency,High,Hotfix for playout crash,5,2026-08-26 16:23:00,2026-08-26 16:37:00,2026-08-26 17:07:00,Successful
+199,CHG0005199,8,Standard,Low,Weekly generator exercise at transmitter site,4,2026-08-27 12:30:00,2026-08-27 12:38:00,2026-08-27 12:48:00,Successful
+200,CHG0005200,3,Emergency,Medium,Roll back codec firmware,6,2026-08-27 17:33:00,2026-08-27 17:46:00,2026-08-27 18:29:00,Failed
+201,CHG0005201,6,Normal,Medium,Firewall rule update for streaming CDN,7,2026-08-27 23:00:00,2026-08-27 23:13:00,2026-08-28 00:06:00,Successful
+202,CHG0005202,5,Normal,Medium,Apply SQL Server cumulative update,3,2026-08-27 23:30:00,2026-08-27 23:34:00,2026-08-28 01:24:00,Successful
+203,CHG0005203,3,Emergency,High,Patch critical CVE,2,2026-08-28 11:10:00,2026-08-28 11:12:00,2026-08-28 11:55:00,Successful
+204,CHG0005204,4,Standard,Low,Replace UPS battery string,3,2026-08-28 11:15:00,2026-08-28 11:15:00,2026-08-28 12:05:00,Successful
+205,CHG0005205,10,Standard,Low,Renew internal certificate,6,2026-08-28 12:45:00,2026-08-28 12:54:00,2026-08-28 13:08:00,Successful
+206,CHG0005206,1,Normal,Low,Update AoIP routing and multicast configuration,5,2026-08-28 16:30:00,2026-08-28 16:35:00,2026-08-28 17:47:00,Successful
+207,CHG0005207,2,Normal,Low,Update AoIP routing and multicast configuration,12,2026-08-28 23:00:00,2026-08-28 23:20:00,2026-08-28 23:54:00,Successful
+208,CHG0005208,1,Standard,Low,Update antivirus definitions,9,2026-08-29 10:00:00,2026-08-29 10:09:00,2026-08-29 10:35:00,Successful
+209,CHG0005209,6,Standard,Low,Weekly generator exercise at transmitter site,2,2026-08-29 16:30:00,2026-08-29 16:34:00,2026-08-29 17:25:00,Successful
+210,CHG0005210,6,Normal,Medium,Update EAS ENDEC firmware,8,2026-08-30 23:00:00,2026-08-30 23:12:00,2026-08-31 00:02:00,Successful
+211,CHG0005211,3,Normal,Medium,Deploy playout software update,5,2026-08-30 23:30:00,2026-08-30 23:38:00,2026-08-31 00:49:00,Successful
+212,CHG0005212,7,Emergency,High,Replace failed exciter module,7,2026-08-31 09:09:00,2026-08-31 09:15:00,2026-08-31 10:05:00,Successful
+213,CHG0005213,6,Standard,Low,Replace UPS battery string,3,2026-08-31 10:00:00,2026-08-31 10:04:00,2026-08-31 10:15:00,Successful
+214,CHG0005214,6,Standard,Low,Update antivirus definitions,7,2026-09-01 11:30:00,2026-09-01 11:32:00,2026-09-01 11:52:00,Successful
+215,CHG0005215,1,Standard,Low,Replace UPS battery string,2,2026-09-01 13:00:00,2026-09-01 13:13:00,2026-09-01 13:29:00,Successful
+216,CHG0005216,5,Standard,Low,Rotate aircheck logger storage,12,2026-09-01 13:15:00,2026-09-01 13:19:00,2026-09-01 13:44:00,Successful
+217,CHG0005217,8,Normal,Medium,Update AoIP routing and multicast configuration,7,2026-09-01 16:00:00,2026-09-01 16:13:00,2026-09-01 19:50:00,Successful
+218,CHG0005218,3,Standard,Low,Apply monthly Windows patches,4,2026-09-01 16:15:00,2026-09-01 16:23:00,2026-09-01 16:47:00,RolledBack
+219,CHG0005219,3,Standard,Low,Replace UPS battery string,4,2026-09-02 09:30:00,2026-09-02 09:42:00,2026-09-02 10:42:00,Successful
+220,CHG0005220,7,Standard,Low,Weekly generator exercise at transmitter site,6,2026-09-02 09:45:00,2026-09-02 09:54:00,2026-09-02 10:22:00,Successful
+221,CHG0005221,9,Standard,Low,Apply monthly Windows patches,11,2026-09-02 11:00:00,2026-09-02 11:10:00,2026-09-02 11:18:00,Successful
+222,CHG0005222,7,Standard,Low,Apply monthly Windows patches,7,2026-09-02 12:45:00,2026-09-02 13:00:00,2026-09-02 13:31:00,Successful
+223,CHG0005223,3,Standard,Low,Rotate aircheck logger storage,9,2026-09-03 10:15:00,2026-09-03 10:18:00,2026-09-03 10:32:00,Successful
+224,CHG0005224,2,Emergency,Medium,Emergency core switch configuration change,4,2026-09-03 12:31:00,2026-09-03 12:36:00,2026-09-03 13:20:00,Successful
+225,CHG0005225,10,Emergency,Medium,Hotfix for playout crash,12,2026-09-03 12:46:00,2026-09-03 12:53:00,2026-09-03 12:34:00,Successful
+226,CHG0005226,5,Normal,Low,Apply SQL Server cumulative update,7,2026-09-03 16:30:00,2026-09-03 16:48:00,2026-09-03 17:26:00,Successful
+227,CHG0005227,7,Standard,Low,Apply monthly Windows patches,5,2026-09-04 11:00:00,2026-09-04 11:07:00,2026-09-04 11:22:00,Successful
+228,CHG0005228,2,Standard,Low,Apply monthly Windows patches,4,2026-09-04 14:45:00,2026-09-04 14:54:00,2026-09-04 15:04:00,Successful
+229,CHG0005229,1,Standard,Low,Replace UPS battery string,12,2026-09-04 16:15:00,2026-09-04 16:18:00,2026-09-04 16:28:00,Successful
+230,CHG0005230,6,Standard,Low,Apply monthly Windows patches,1,2026-09-05 11:30:00,2026-09-05 11:38:00,2026-09-05 11:53:00,Successful
+231,CHG0005231,1,Standard,Low,Weekly generator exercise at transmitter site,2,2026-09-05 12:00:00,2026-09-05 12:15:00,2026-09-05 12:37:00,Successful
+232,CHG0005232,1,Standard,Low,Replace UPS battery string,6,2026-09-05 12:15:00,2026-09-05 12:26:00,2026-09-05 12:44:00,Successful
+233,CHG0005233,3,Normal,Medium,Apply SQL Server cumulative update,10,2026-09-05 16:00:00,2026-09-05 16:12:00,2026-09-05 16:40:00,Successful
+234,CHG0005234,7,Normal,Medium,Update AoIP routing and multicast configuration,12,2026-09-06 14:00:00,2026-09-06 14:10:00,2026-09-06 14:45:00,Successful
+235,CHG0005235,4,Standard,Low,Apply monthly Windows patches,6,2026-09-06 14:15:00,2026-09-06 14:20:00,2026-09-06 15:09:00,Successful
+236,CHG0005236,6,Standard,Low,Replace UPS battery string,10,2026-09-06 14:15:00,2026-09-06 14:24:00,2026-09-06 14:51:00,Failed
+237,CHG0005237,10,Standard,Low,Renew internal certificate,8,2026-09-06 15:00:00,2026-09-06 15:10:00,2026-09-06 15:24:00,Successful
+238,CHG0005238,9,Normal,Medium,Traffic system release,4,2026-09-06 22:30:00,2026-09-06 22:36:00,2026-09-07 01:01:00,RolledBack
+239,CHG0005239,3,Standard,Low,Apply monthly Windows patches,12,2026-09-07 10:30:00,2026-09-07 10:38:00,2026-09-07 10:47:00,Successful
+240,CHG0005240,4,Standard,Low,Renew internal certificate,10,2026-09-07 15:15:00,2026-09-07 15:27:00,2026-09-07 15:43:00,Successful
+241,CHG0005241,2,Normal,Low,Apply SQL Server cumulative update,2,2026-09-07 23:00:00,2026-09-07 23:00:00,2026-09-07 23:40:00,Successful
+242,CHG0005242,6,Standard,Low,Rotate aircheck logger storage,4,2026-09-08 10:45:00,2026-09-08 10:57:00,2026-09-08 11:13:00,Successful
+243,CHG0005243,3,Standard,Low,Renew internal certificate,5,2026-09-08 12:00:00,2026-09-08 12:18:00,2026-09-08 12:40:00,RolledBack
+244,CHG0005244,9,Emergency,High,Patch critical CVE,12,2026-09-08 14:43:00,2026-09-08 14:56:00,2026-09-08 15:18:00,Successful
+245,CHG0005245,4,Normal,Medium,Reconfigure backup air chain,7,2026-09-08 22:00:00,2026-09-08 22:20:00,2026-09-08 23:09:00,Successful
+246,CHG0005246,7,Standard,Low,Renew internal certificate,9,2026-09-09 10:00:00,2026-09-09 10:13:00,2026-09-09 10:40:00,Successful
+247,CHG0005247,6,Standard,Low,Renew internal certificate,1,2026-09-09 10:00:00,2026-09-09 10:12:00,2026-09-09 10:39:00,Successful
+248,CHG0005248,7,Standard,Low,Rotate aircheck logger storage,10,2026-09-09 11:15:00,2026-09-09 11:19:00,2026-09-09 11:43:00,Successful
+249,CHG0005249,4,Normal,Medium,Firmware update on STL codec,10,2026-09-09 22:30:00,2026-09-09 22:42:00,2026-09-09 23:43:00,Successful
+250,CHG0005250,9,Standard,Low,Weekly generator exercise at transmitter site,2,2026-09-10 14:15:00,2026-09-10 14:30:00,2026-09-10 14:46:00,Successful
+251,CHG0005251,10,Standard,Low,Renew internal certificate,7,2026-09-10 16:30:00,2026-09-10 16:43:00,2026-09-10 17:05:00,Successful
+252,CHG0005252,7,Normal,Medium,Update AoIP routing and multicast configuration,10,2026-09-10 22:30:00,2026-09-10 22:48:00,2026-09-11 00:10:00,Successful
+253,CHG0005253,9,Normal,Medium,Update EAS ENDEC firmware,3,2026-09-10 23:30:00,2026-09-10 23:50:00,2026-09-11 00:48:00,Successful
+254,CHG0005254,4,Standard,Low,Apply monthly Windows patches,11,2026-09-11 11:15:00,2026-09-11 11:22:00,2026-09-11 11:47:00,Successful
+255,CHG0005255,4,Standard,Low,Apply monthly Windows patches,12,2026-09-11 16:15:00,2026-09-11 16:32:00,2026-09-11 16:49:00,Successful
+256,CHG0005256,9,Normal,Low,Traffic system release,3,2026-09-11 22:00:00,2026-09-11 22:16:00,2026-09-11 22:57:00,Successful
+257,CHG0005257,2,Normal,Low,Deploy playout software update,2,2026-09-11 22:00:00,2026-09-11 22:01:00,2026-09-11 22:21:00,Successful
+258,CHG0005258,6,Emergency,High,Replace failed exciter module,7,2026-09-12 00:17:00,2026-09-12 00:36:00,2026-09-12 01:20:00,Successful
+259,CHG0005259,5,Standard,Low,Replace UPS battery string,5,2026-09-12 12:00:00,2026-09-12 12:10:00,2026-09-12 12:45:00,Successful
+260,CHG0005260,4,Normal,Medium,Apply SQL Server cumulative update,11,2026-09-12 22:30:00,2026-09-12 22:46:00,2026-09-13 00:21:00,Successful
+261,CHG0005261,5,Normal,Low,Firewall rule update for streaming CDN,11,2026-09-12 23:30:00,2026-09-12 23:32:00,2026-09-13 00:21:00,Successful
+262,CHG0005262,2,Standard,Low,Replace UPS battery string,10,2026-09-13 10:45:00,2026-09-13 10:46:00,2026-09-13 11:15:00,Successful
+263,CHG0005263,1,Standard,Low,Weekly generator exercise at transmitter site,5,2026-09-13 12:30:00,2026-09-13 12:47:00,2026-09-13 13:12:00,Successful
+264,CHG0005264,9,Normal,Low,Apply SQL Server cumulative update,11,2026-09-13 22:30:00,2026-09-13 22:34:00,2026-09-14 00:41:00,Successful
+265,CHG0005265,2,Normal,High,Update AoIP routing and multicast configuration,11,2026-09-13 22:30:00,2026-09-13 22:41:00,2026-09-13 23:26:00,Successful
+266,CHG0005266,6,Standard,Low,Update antivirus definitions,3,2026-09-14 10:45:00,2026-09-14 10:50:00,2026-09-14 11:07:00,Successful
+267,CHG0005267,4,Normal,High,Apply SQL Server cumulative update,1,2026-09-14 22:00:00,2026-09-14 22:13:00,2026-09-14 23:07:00,Successful
+268,CHG0005268,5,Normal,Medium,Deploy playout software update,2,2026-09-14 22:00:00,2026-09-14 22:11:00,2026-09-14 23:01:00,Successful
+269,CHG0005269,10,Standard,Low,Weekly generator exercise at transmitter site,3,2026-09-15 10:00:00,2026-09-15 10:03:00,2026-09-15 10:21:00,Successful
+270,CHG0005270,10,Standard,Low,Update antivirus definitions,9,2026-09-15 12:00:00,2026-09-15 12:11:00,2026-09-15 12:59:00,Successful
+271,CHG0005271,4,Emergency,High,Roll back codec firmware,1,2026-09-15 17:53:00,2026-09-15 17:57:00,2026-09-15 18:05:00,RolledBack
+272,CHG0005272,1,Standard,Low,Apply monthly Windows patches,12,2026-09-16 09:00:00,2026-09-16 09:20:00,2026-09-16 09:33:00,Successful
+273,CHG0005273,6,Emergency,Medium,Hotfix for playout crash,12,2026-09-16 12:00:00,2026-09-16 12:02:00,2026-09-16 12:38:00,Successful
+274,CHG0005274,6,Emergency,High,Emergency core switch configuration change,11,2026-09-16 13:03:00,2026-09-16 13:04:00,2026-09-16 13:24:00,Successful
+275,CHG0005275,7,Standard,Low,Replace UPS battery string,9,2026-09-16 16:15:00,2026-09-16 16:31:00,2026-09-16 17:09:00,Successful
+276,CHG0005276,1,Normal,Medium,Update AoIP routing and multicast configuration,10,2026-09-16 23:00:00,2026-09-16 23:19:00,2026-09-17 00:40:00,Successful
+277,CHG0005277,6,Standard,Low,Update antivirus definitions,6,2026-09-17 11:00:00,2026-09-17 11:15:00,2026-09-17 12:00:00,Successful
+278,CHG0005278,6,Standard,Low,Renew internal certificate,9,2026-09-17 11:45:00,2026-09-17 11:58:00,2026-09-17 12:17:00,Failed
+279,CHG0005279,2,Normal,High,Update AoIP routing and multicast configuration,3,2026-09-17 23:30:00,2026-09-17 23:42:00,2026-09-18 01:04:00,Successful
+280,CHG0005280,4,Standard,Low,Rotate aircheck logger storage,8,2026-09-18 09:00:00,2026-09-18 09:19:00,2026-09-18 10:18:00,Successful
+281,CHG0005281,8,Standard,Low,Renew internal certificate,12,2026-09-18 10:45:00,2026-09-18 10:59:00,2026-09-18 11:09:00,Successful
+282,CHG0005282,2,Emergency,High,Change IGMP snooping querier settings on AoIP core switch,12,2026-09-18 13:45:00,2026-09-18 13:50:00,2026-09-18 14:02:00,RolledBack
+283,CHG0005283,2,Normal,Low,Deploy playout software update,10,2026-09-18 16:30:00,2026-09-18 16:37:00,2026-09-18 17:34:00,Failed
+284,CHG0005284,10,Standard,Low,Renew internal certificate,9,2026-09-18 16:45:00,2026-09-18 17:00:00,2026-09-18 17:16:00,Successful
+285,CHG0005285,9,Standard,Low,Apply monthly Windows patches,10,2026-09-19 15:15:00,2026-09-19 15:25:00,2026-09-19 15:36:00,Successful
+286,CHG0005286,8,Normal,High,Apply SQL Server cumulative update,6,2026-09-19 23:30:00,2026-09-19 23:41:00,2026-09-20 00:55:00,Successful
+287,CHG0005287,10,Normal,Low,Traffic system release,5,2026-09-19 23:30:00,2026-09-19 23:35:00,2026-09-20 00:33:00,Successful
+288,CHG0005288,5,Standard,Low,Renew internal certificate,3,2026-09-20 11:45:00,2026-09-20 11:46:00,2026-09-20 12:08:00,Successful
+289,CHG0005289,10,Standard,Low,Rotate aircheck logger storage,9,2026-09-20 13:45:00,2026-09-20 13:58:00,2026-09-20 14:41:00,Successful
+290,CHG0005290,10,Normal,Medium,Firmware update on STL codec,12,2026-09-20 16:00:00,2026-09-20 16:19:00,2026-09-20 18:07:00,Successful
+291,CHG0005291,7,Normal,High,Traffic system release,10,2026-09-20 22:00:00,2026-09-20 22:19:00,2026-09-20 23:28:00,Successful
+292,CHG0005292,6,Standard,Low,Apply monthly Windows patches,7,2026-09-21 10:30:00,2026-09-21 10:48:00,2026-09-21 10:17:00,Successful
+293,CHG0005293,1,Standard,Low,Renew internal certificate,1,2026-09-21 11:00:00,2026-09-21 11:08:00,2026-09-21 11:34:00,Successful
+294,CHG0005294,7,Standard,Low,Weekly generator exercise at transmitter site,5,2026-09-21 13:00:00,,,Cancelled
+295,CHG0005295,2,Normal,Medium,Update EAS ENDEC firmware,11,2026-09-21 14:00:00,2026-09-21 14:03:00,2026-09-21 15:25:00,Successful
+296,CHG0005296,6,Standard,Low,Apply monthly Windows patches,6,2026-09-22 11:00:00,2026-09-22 11:19:00,2026-09-22 11:46:00,Successful
+297,CHG0005297,1,Emergency,High,Hotfix for playout crash,5,2026-09-22 17:32:00,2026-09-22 17:33:00,2026-09-22 17:59:00,Successful
+298,CHG0005298,3,Normal,Low,Apply SQL Server cumulative update,4,2026-09-22 22:00:00,2026-09-22 22:05:00,2026-09-22 22:56:00,Successful
+299,CHG0005299,9,Normal,Medium,Firmware update on STL codec,8,2026-09-22 23:00:00,2026-09-22 23:17:00,2026-09-23 00:34:00,Successful
+300,CHG0005300,3,Standard,Low,Renew internal certificate,4,2026-09-23 12:30:00,2026-09-23 12:35:00,2026-09-23 12:57:00,Successful
+301,CHG0005301,2,Standard,Low,Renew internal certificate,1,2026-09-23 16:00:00,2026-09-23 16:11:00,2026-09-23 16:23:00,Successful
+302,CHG0005302,3,Normal,Medium,Reconfigure backup air chain,9,2026-09-23 22:30:00,2026-09-23 22:39:00,2026-09-23 23:05:00,Successful
+303,CHG0005303,5,Standard,Low,Renew internal certificate,4,2026-09-24 11:45:00,2026-09-24 11:49:00,2026-09-24 12:11:00,Successful
+304,CHG0005304,1,Normal,Medium,Deploy playout software update,11,2026-09-24 14:00:00,2026-09-24 14:09:00,2026-09-24 15:17:00,Successful
+305,CHG0005305,6,Standard,Low,Apply monthly Windows patches,10,2026-09-24 15:30:00,2026-09-24 15:33:00,2026-09-24 15:55:00,Successful
+306,CHG0005306,2,Normal,Low,Update EAS ENDEC firmware,5,2026-09-24 16:30:00,2026-09-24 16:34:00,2026-09-24 17:15:00,Successful
+307,CHG0005307,2,Emergency,High,Hotfix for playout crash,9,2026-09-25 11:46:00,2026-09-25 11:57:00,2026-09-25 12:52:00,Successful
+308,CHG0005308,1,Standard,Low,Rotate aircheck logger storage,6,2026-09-25 12:30:00,2026-09-25 12:40:00,2026-09-25 13:03:00,Successful
+309,CHG0005309,5,Standard,Low,Update antivirus definitions,7,2026-09-25 13:15:00,2026-09-25 13:35:00,2026-09-25 13:44:00,Successful
+310,CHG0005310,1,Normal,Medium,Update AoIP routing and multicast configuration,4,2026-09-25 16:00:00,2026-09-25 16:06:00,2026-09-25 17:34:00,Failed
+311,CHG0005311,3,Emergency,Medium,Replace failed exciter module,9,2026-09-25 16:44:00,2026-09-25 16:49:00,2026-09-25 17:11:00,Successful
+312,CHG0005312,5,Standard,Low,Update antivirus definitions,3,2026-09-26 15:30:00,2026-09-26 15:37:00,2026-09-26 15:59:00,Successful
+313,CHG0005313,6,Emergency,Medium,Patch critical CVE,4,2026-09-26 16:30:00,2026-09-26 16:37:00,2026-09-26 17:17:00,Failed
+314,CHG0005314,5,Emergency,High,Roll back codec firmware,5,2026-09-26 18:25:00,2026-09-26 18:29:00,2026-09-26 18:55:00,Successful
+315,CHG0005315,9,Standard,Low,Weekly generator exercise at transmitter site,10,2026-09-27 09:00:00,2026-09-27 09:16:00,2026-09-27 09:39:00,Successful
+316,CHG0005316,3,Standard,Low,Apply monthly Windows patches,10,2026-09-27 10:30:00,2026-09-27 10:46:00,2026-09-27 10:59:00,Successful
+317,CHG0005317,1,Standard,Low,Renew internal certificate,2,2026-09-27 11:15:00,2026-09-27 11:35:00,2026-09-27 11:51:00,Successful
+318,CHG0005318,3,Standard,Low,Update antivirus definitions,3,2026-09-28 10:45:00,2026-09-28 10:51:00,2026-09-28 11:16:00,Successful
+319,CHG0005319,1,Normal,Medium,Deploy playout software update,10,2026-09-28 14:00:00,2026-09-28 14:05:00,2026-09-28 14:52:00,Successful
+320,CHG0005320,7,Normal,Medium,Firewall rule update for streaming CDN,11,2026-09-28 23:00:00,2026-09-28 23:19:00,2026-09-29 00:50:00,Successful
+321,CHG0005321,9,Standard,Low,Renew internal certificate,11,2026-09-29 09:00:00,,,Cancelled
+322,CHG0005322,4,Standard,Low,Apply monthly Windows patches,10,2026-09-29 09:45:00,2026-09-29 09:57:00,2026-09-29 10:07:00,Successful
+323,CHG0005323,3,Normal,Medium,Update AoIP routing and multicast configuration,10,2026-09-29 23:00:00,2026-09-29 23:12:00,2026-09-30 00:26:00,Successful
+324,CHG0005324,6,Standard,Low,Renew internal certificate,10,2026-09-30 11:00:00,2026-09-30 11:05:00,2026-09-30 11:15:00,Successful
+325,CHG0005325,4,Standard,Low,Update antivirus definitions,10,2026-09-30 12:00:00,2026-09-30 12:17:00,2026-09-30 12:35:00,Successful
+326,CHG0005326,1,Standard,Low,Update antivirus definitions,7,2026-09-30 12:30:00,2026-09-30 12:33:00,2026-09-30 12:42:00,Successful
+327,CHG0005327,3,Standard,Low,Update antivirus definitions,5,2026-09-30 15:15:00,2026-09-30 15:32:00,2026-09-30 15:52:00,Successful

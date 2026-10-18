@@ -1,0 +1,11 @@
+service_id,service_name,tier,platform,owner_team
+1,playout-automation,1,On-Air,Broadcast Engineering
+2,aoip-network,1,On-Air,Network Engineering
+3,transmitter-sites,1,RF / Transmission,Broadcast Engineering
+4,stl-links,1,RF / Transmission,Broadcast Engineering
+5,traffic-scheduling,1,Traffic & Billing,Traffic Systems
+6,stream-encoders,2,Digital,Digital Media
+7,stream-distribution,2,Digital,Digital Media
+8,eas-endec,1,Compliance,Broadcast Engineering
+9,sql-cluster,1,Shared Services,Database Engineering
+10,newsroom-system,3,News,News Technology

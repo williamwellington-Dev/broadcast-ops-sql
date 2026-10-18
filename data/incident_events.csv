@@ -1,0 +1,680 @@
+event_id,incident_id,event_type,event_at,engineer_id,detail
+1,1,Created,2026-07-01 10:47:00,,Opened from monitoring alert
+2,1,Acknowledged,2026-07-01 12:02:00,5,Acknowledged by primary on-call
+3,1,Mitigated,2026-07-02 01:55:00,5,On-air / listener impact stopped
+4,1,Resolved,2026-07-02 08:04:00,5,Resolved and closed
+5,2,Created,2026-07-01 14:30:00,,Opened from monitoring alert
+6,2,Acknowledged,2026-07-01 16:33:00,5,Acknowledged by primary on-call
+7,2,Mitigated,2026-07-01 22:49:00,5,On-air / listener impact stopped
+8,2,Resolved,2026-07-02 11:25:00,5,Resolved and closed
+9,3,Created,2026-07-02 22:10:00,,Opened from monitoring alert
+10,3,Acknowledged,2026-07-02 23:45:00,3,Acknowledged by primary on-call
+11,3,Mitigated,2026-07-03 23:13:00,3,On-air / listener impact stopped
+12,3,Resolved,2026-07-04 12:43:00,3,Resolved and closed
+13,4,Created,2026-07-03 12:23:00,,Opened from monitoring alert
+14,4,Acknowledged,2026-07-03 14:33:00,7,Acknowledged by primary on-call
+15,4,Mitigated,2026-07-04 04:39:00,7,On-air / listener impact stopped
+16,4,Resolved,2026-07-04 19:17:00,7,Resolved and closed
+17,5,Created,2026-07-03 21:51:00,,Opened from monitoring alert
+18,5,Acknowledged,2026-07-04 03:38:00,4,Acknowledged by primary on-call
+19,5,Mitigated,2026-07-05 00:12:00,4,On-air / listener impact stopped
+20,5,Resolved,2026-07-05 05:31:00,4,Resolved and closed
+21,6,Created,2026-07-04 02:10:00,,Opened from monitoring alert
+22,6,Acknowledged,2026-07-04 03:02:00,4,Acknowledged by primary on-call
+23,6,Mitigated,2026-07-04 09:03:00,4,On-air / listener impact stopped
+24,6,Resolved,2026-07-04 16:02:00,4,Resolved and closed
+25,7,Created,2026-07-04 09:05:00,,Opened from monitoring alert
+26,7,Acknowledged,2026-07-04 09:53:00,8,Acknowledged by primary on-call
+27,7,Mitigated,2026-07-04 11:36:00,8,On-air / listener impact stopped
+28,7,Resolved,2026-07-04 14:08:00,8,Resolved and closed
+29,8,Created,2026-07-05 11:06:00,,Opened from monitoring alert
+30,8,Acknowledged,2026-07-05 11:48:00,1,Acknowledged by primary on-call
+31,8,Mitigated,2026-07-05 17:06:00,1,On-air / listener impact stopped
+32,8,Resolved,2026-07-06 02:45:00,1,Resolved and closed
+33,9,Created,2026-07-06 13:55:00,,Opened from monitoring alert
+34,9,Acknowledged,2026-07-06 14:17:00,2,Acknowledged by primary on-call
+35,9,Mitigated,2026-07-06 17:00:00,2,On-air / listener impact stopped
+36,9,Resolved,2026-07-06 19:39:00,2,Resolved and closed
+37,10,Created,2026-07-07 16:47:00,,Opened from monitoring alert
+38,10,Acknowledged,2026-07-07 17:36:00,3,Acknowledged by primary on-call
+39,10,Mitigated,2026-07-07 19:40:00,3,On-air / listener impact stopped
+40,10,Resolved,2026-07-07 21:50:00,3,Resolved and closed
+41,11,Created,2026-07-08 22:02:00,,Opened from monitoring alert
+42,11,Acknowledged,2026-07-08 22:21:00,1,Acknowledged by primary on-call
+43,11,Mitigated,2026-07-09 01:38:00,1,On-air / listener impact stopped
+44,11,Resolved,2026-07-09 02:26:00,1,Resolved and closed
+45,12,Created,2026-07-09 09:10:00,,Opened from monitoring alert
+46,12,Acknowledged,2026-07-09 10:02:00,5,Acknowledged by primary on-call
+47,12,Mitigated,2026-07-10 07:43:00,5,On-air / listener impact stopped
+48,12,Resolved,2026-07-10 12:04:00,5,Resolved and closed
+49,13,Created,2026-07-09 09:37:00,,Opened from monitoring alert
+50,13,Acknowledged,2026-07-09 09:47:00,5,Acknowledged by primary on-call
+51,13,Mitigated,2026-07-09 16:34:00,5,On-air / listener impact stopped
+52,13,Resolved,2026-07-09 17:53:00,5,Resolved and closed
+53,14,Created,2026-07-10 03:11:00,,Opened from monitoring alert
+54,14,Acknowledged,2026-07-10 03:24:00,2,Acknowledged by primary on-call
+55,14,Mitigated,2026-07-10 07:34:00,2,On-air / listener impact stopped
+56,14,Resolved,2026-07-10 09:49:00,2,Resolved and closed
+57,15,Created,2026-07-10 10:29:00,,Opened from monitoring alert
+58,15,Acknowledged,2026-07-10 10:39:00,6,Acknowledged by primary on-call
+59,15,Mitigated,2026-07-10 12:16:00,6,On-air / listener impact stopped
+60,15,Resolved,2026-07-10 14:35:00,6,Resolved and closed
+61,16,Created,2026-07-11 00:52:00,,Opened from monitoring alert
+62,16,Acknowledged,2026-07-11 01:10:00,3,Acknowledged by primary on-call
+63,16,Escalated,2026-07-11 01:16:00,3,Engaged service owner team and secondary on-call
+64,16,Mitigated,2026-07-11 02:12:00,3,On-air / listener impact stopped
+65,16,Resolved,2026-07-11 02:56:00,3,Resolved and closed
+66,17,Created,2026-07-11 13:19:00,,Opened from monitoring alert
+67,17,Acknowledged,2026-07-11 16:25:00,7,Acknowledged by primary on-call
+68,17,Mitigated,2026-07-12 08:19:00,7,On-air / listener impact stopped
+69,17,Resolved,2026-07-12 17:02:00,7,Resolved and closed
+70,18,Created,2026-07-13 12:42:00,,Opened from monitoring alert
+71,18,Acknowledged,2026-07-13 13:07:00,1,Acknowledged by primary on-call
+72,18,Mitigated,2026-07-13 19:40:00,1,On-air / listener impact stopped
+73,18,Resolved,2026-07-13 23:35:00,1,Resolved and closed
+74,19,Created,2026-07-13 21:20:00,,Opened from monitoring alert
+75,19,Acknowledged,2026-07-13 22:02:00,6,Acknowledged by primary on-call
+76,19,Mitigated,2026-07-14 04:59:00,6,On-air / listener impact stopped
+77,19,Resolved,2026-07-14 08:34:00,6,Resolved and closed
+78,20,Created,2026-07-14 10:32:00,,Opened from monitoring alert
+79,20,Acknowledged,2026-07-14 10:48:00,2,Acknowledged by primary on-call
+80,20,Escalated,2026-07-14 10:51:00,2,Engaged service owner team and secondary on-call
+81,20,ClientComms,2026-07-14 11:00:00,2,Station management and sales/traffic notified
+82,20,Mitigated,2026-07-14 13:54:00,2,On-air / listener impact stopped
+83,20,Resolved,2026-07-14 15:41:00,2,Resolved and closed
+84,21,Created,2026-07-14 14:26:00,,Opened from monitoring alert
+85,21,Acknowledged,2026-07-14 15:35:00,2,Acknowledged by primary on-call
+86,21,Mitigated,2026-07-16 00:53:00,2,On-air / listener impact stopped
+87,21,Resolved,2026-07-16 08:58:00,2,Resolved and closed
+88,22,Created,2026-07-14 17:27:00,,Opened from monitoring alert
+89,22,Acknowledged,2026-07-14 17:38:00,2,Acknowledged by primary on-call
+90,22,Mitigated,2026-07-14 21:23:00,2,On-air / listener impact stopped
+91,22,Resolved,2026-07-15 00:40:00,2,Resolved and closed
+92,23,Created,2026-07-15 08:09:00,,Opened from monitoring alert
+93,23,Acknowledged,2026-07-15 09:16:00,3,Acknowledged by primary on-call
+94,23,Mitigated,2026-07-15 14:45:00,3,On-air / listener impact stopped
+95,23,Resolved,2026-07-16 03:52:00,3,Resolved and closed
+96,24,Created,2026-07-16 04:25:00,,Opened from monitoring alert
+97,24,Acknowledged,2026-07-16 05:16:00,8,Acknowledged by primary on-call
+98,24,Mitigated,2026-07-16 17:15:00,8,On-air / listener impact stopped
+99,24,Resolved,2026-07-17 06:12:00,8,Resolved and closed
+100,25,Created,2026-07-17 01:55:00,,Opened from monitoring alert
+101,25,Acknowledged,2026-07-17 02:22:00,1,Acknowledged by primary on-call
+102,25,Mitigated,2026-07-17 09:38:00,1,On-air / listener impact stopped
+103,25,Resolved,2026-07-17 11:44:00,1,Resolved and closed
+104,26,Created,2026-07-17 09:21:00,,Opened from monitoring alert
+105,26,Acknowledged,2026-07-17 10:35:00,5,Acknowledged by primary on-call
+106,26,Mitigated,2026-07-17 19:10:00,5,On-air / listener impact stopped
+107,26,Resolved,2026-07-18 07:18:00,5,Resolved and closed
+108,27,Created,2026-07-18 14:34:00,,Opened from monitoring alert
+109,27,Acknowledged,2026-07-18 15:08:00,6,Acknowledged by primary on-call
+110,27,Mitigated,2026-07-18 18:01:00,6,On-air / listener impact stopped
+111,27,Resolved,2026-07-18 20:24:00,6,Resolved and closed
+112,28,Created,2026-07-18 18:08:00,,Opened from monitoring alert
+113,28,Acknowledged,2026-07-18 18:27:00,6,Acknowledged by primary on-call
+114,28,Mitigated,2026-07-19 01:44:00,6,On-air / listener impact stopped
+115,28,Resolved,2026-07-19 11:52:00,6,Resolved and closed
+116,29,Created,2026-07-19 14:04:00,,Opened from monitoring alert
+117,29,Acknowledged,2026-07-19 16:08:00,7,Acknowledged by primary on-call
+118,29,Mitigated,2026-07-20 19:18:00,7,On-air / listener impact stopped
+119,29,Resolved,2026-07-21 05:13:00,7,Resolved and closed
+120,30,Created,2026-07-20 05:27:00,,Opened from monitoring alert
+121,30,Acknowledged,2026-07-20 06:45:00,4,Acknowledged by primary on-call
+122,30,Mitigated,2026-07-20 08:48:00,4,On-air / listener impact stopped
+123,30,Resolved,2026-07-20 13:48:00,4,Resolved and closed
+124,31,Created,2026-07-20 08:35:00,,Opened from monitoring alert
+125,31,Acknowledged,2026-07-20 08:52:00,8,Acknowledged by primary on-call
+126,31,Mitigated,2026-07-20 15:25:00,8,On-air / listener impact stopped
+127,31,Resolved,2026-07-20 18:53:00,8,Resolved and closed
+128,32,Created,2026-07-20 17:56:00,,Opened from monitoring alert
+129,32,Acknowledged,2026-07-20 18:12:00,8,Acknowledged by primary on-call
+130,32,Mitigated,2026-07-20 21:18:00,8,On-air / listener impact stopped
+131,32,Resolved,2026-07-21 00:38:00,8,Resolved and closed
+132,33,Created,2026-07-21 10:15:00,,Opened from monitoring alert
+133,33,Acknowledged,2026-07-21 11:03:00,1,Acknowledged by primary on-call
+134,33,Mitigated,2026-07-22 15:51:00,1,On-air / listener impact stopped
+135,33,Resolved,2026-07-23 12:00:00,1,Resolved and closed
+136,34,Created,2026-07-22 21:34:00,,Opened from monitoring alert
+137,34,Acknowledged,2026-07-22 22:42:00,7,Acknowledged by primary on-call
+138,34,Mitigated,2026-07-23 04:04:00,7,On-air / listener impact stopped
+139,34,Resolved,2026-07-23 07:56:00,7,Resolved and closed
+140,35,Created,2026-07-23 02:42:00,,Opened from monitoring alert
+141,35,Acknowledged,2026-07-23 02:58:00,7,Acknowledged by primary on-call
+142,35,Mitigated,2026-07-23 14:51:00,7,On-air / listener impact stopped
+143,35,Resolved,2026-07-23 20:38:00,7,Resolved and closed
+144,36,Created,2026-07-24 11:22:00,,Opened from monitoring alert
+145,36,Acknowledged,2026-07-24 12:39:00,4,Acknowledged by primary on-call
+146,36,Mitigated,2026-07-24 19:18:00,4,On-air / listener impact stopped
+147,36,Resolved,2026-07-25 08:24:00,4,Resolved and closed
+148,37,Created,2026-07-24 12:56:00,,Opened from monitoring alert
+149,37,Acknowledged,2026-07-24 13:26:00,4,Acknowledged by primary on-call
+150,37,Mitigated,2026-07-24 17:03:00,4,On-air / listener impact stopped
+151,37,Resolved,2026-07-24 22:48:00,4,Resolved and closed
+152,38,Created,2026-07-25 11:59:00,,Opened from monitoring alert
+153,38,Acknowledged,2026-07-25 12:50:00,5,Acknowledged by primary on-call
+154,38,Mitigated,2026-07-25 20:05:00,5,On-air / listener impact stopped
+155,38,Resolved,2026-07-26 05:37:00,5,Resolved and closed
+156,39,Created,2026-07-25 13:56:00,,Opened from monitoring alert
+157,39,Acknowledged,2026-07-25 14:00:00,5,Acknowledged by primary on-call
+158,39,Escalated,2026-07-25 14:05:00,5,Engaged service owner team and secondary on-call
+159,39,ClientComms,2026-07-25 14:09:00,5,Station management and sales/traffic notified
+160,39,Mitigated,2026-07-25 17:40:00,5,On-air / listener impact stopped
+161,39,Resolved,2026-07-25 18:16:00,5,Resolved and closed
+162,40,Created,2026-07-26 16:59:00,,Opened from monitoring alert
+163,40,Acknowledged,2026-07-26 17:02:00,6,Acknowledged by primary on-call
+164,40,Escalated,2026-07-26 17:07:00,6,Engaged service owner team and secondary on-call
+165,40,Mitigated,2026-07-26 19:07:00,6,On-air / listener impact stopped
+166,40,Resolved,2026-07-26 20:02:00,6,Resolved and closed
+167,41,Created,2026-07-27 14:29:00,,Opened from monitoring alert
+168,41,Acknowledged,2026-07-27 14:32:00,7,Acknowledged by primary on-call
+169,41,Escalated,2026-07-27 14:36:00,7,Engaged service owner team and secondary on-call
+170,41,ClientComms,2026-07-27 16:00:00,7,Station management and sales/traffic notified
+171,41,Mitigated,2026-07-27 16:24:00,7,On-air / listener impact stopped
+172,41,Resolved,2026-07-27 16:58:00,7,Resolved and closed
+173,42,Created,2026-07-27 17:02:00,,Opened from monitoring alert
+174,42,Acknowledged,2026-07-27 17:17:00,7,Acknowledged by primary on-call
+175,42,Mitigated,2026-07-28 00:00:00,7,On-air / listener impact stopped
+176,42,Resolved,2026-07-28 06:38:00,7,Resolved and closed
+177,43,Created,2026-07-28 13:49:00,,Opened from monitoring alert
+178,43,Acknowledged,2026-07-28 17:48:00,8,Acknowledged by primary on-call
+179,43,Mitigated,2026-07-29 01:21:00,8,On-air / listener impact stopped
+180,43,Resolved,2026-07-29 12:17:00,8,Resolved and closed
+181,44,Created,2026-07-29 10:21:00,,Opened from monitoring alert
+182,44,Acknowledged,2026-07-29 10:49:00,1,Acknowledged by primary on-call
+183,44,Mitigated,2026-07-29 14:19:00,1,On-air / listener impact stopped
+184,44,Resolved,2026-07-29 21:26:00,1,Resolved and closed
+185,45,Created,2026-07-30 04:02:00,,Opened from monitoring alert
+186,45,Acknowledged,2026-07-30 04:43:00,6,Acknowledged by primary on-call
+187,45,Mitigated,2026-07-31 01:22:00,6,On-air / listener impact stopped
+188,45,Resolved,2026-07-31 06:59:00,6,Resolved and closed
+189,46,Created,2026-07-30 20:40:00,,Opened from monitoring alert
+190,46,Acknowledged,2026-07-30 20:48:00,7,Acknowledged by primary on-call
+191,46,Escalated,2026-07-30 20:55:00,7,Engaged service owner team and secondary on-call
+192,46,ClientComms,2026-07-30 21:08:00,7,Station management and sales/traffic notified
+193,46,Mitigated,2026-07-30 21:34:00,7,On-air / listener impact stopped
+194,46,Resolved,2026-07-30 22:12:00,7,Resolved and closed
+195,47,Created,2026-07-31 03:42:00,,Opened from monitoring alert
+196,47,Acknowledged,2026-07-31 03:53:00,7,Acknowledged by primary on-call
+197,47,Mitigated,2026-07-31 09:27:00,7,On-air / listener impact stopped
+198,47,Resolved,2026-07-31 10:37:00,7,Resolved and closed
+199,48,Created,2026-07-31 14:36:00,,Opened from monitoring alert
+200,48,Acknowledged,2026-07-31 15:55:00,3,Acknowledged by primary on-call
+201,48,Mitigated,2026-08-01 01:56:00,3,On-air / listener impact stopped
+202,48,Resolved,2026-08-01 14:28:00,3,Resolved and closed
+203,49,Created,2026-08-01 14:35:00,,Opened from monitoring alert
+204,49,Acknowledged,2026-08-01 14:55:00,4,Acknowledged by primary on-call
+205,49,Mitigated,2026-08-01 22:19:00,4,On-air / listener impact stopped
+206,49,Resolved,2026-08-02 00:00:00,4,Resolved and closed
+207,50,Created,2026-08-01 14:47:00,,Opened from monitoring alert
+208,50,Acknowledged,2026-08-01 15:50:00,4,Acknowledged by primary on-call
+209,50,Mitigated,2026-08-02 05:20:00,4,On-air / listener impact stopped
+210,50,Resolved,2026-08-02 08:42:00,4,Resolved and closed
+211,51,Created,2026-08-01 15:42:00,,Opened from monitoring alert
+212,51,Acknowledged,2026-08-01 16:39:00,4,Acknowledged by primary on-call
+213,51,Mitigated,2026-08-02 17:46:00,4,On-air / listener impact stopped
+214,51,Resolved,2026-08-08 23:38:00,4,Resolved and closed
+215,52,Created,2026-08-02 11:03:00,,Opened from monitoring alert
+216,52,Acknowledged,2026-08-02 11:17:00,5,Acknowledged by primary on-call
+217,52,Mitigated,2026-08-02 13:58:00,5,On-air / listener impact stopped
+218,52,Resolved,2026-08-02 19:32:00,5,Resolved and closed
+219,53,Created,2026-08-02 14:33:00,,Opened from monitoring alert
+220,53,Acknowledged,2026-08-02 16:04:00,5,Acknowledged by primary on-call
+221,53,Mitigated,2026-08-03 07:54:00,5,On-air / listener impact stopped
+222,53,Resolved,2026-08-03 12:52:00,5,Resolved and closed
+223,54,Created,2026-08-03 13:16:00,,Opened from monitoring alert
+224,54,Acknowledged,2026-08-03 14:19:00,6,Acknowledged by primary on-call
+225,54,Mitigated,2026-08-04 05:12:00,6,On-air / listener impact stopped
+226,54,Resolved,2026-08-04 16:50:00,6,Resolved and closed
+227,55,Created,2026-08-03 17:20:00,,Opened from monitoring alert
+228,55,Acknowledged,2026-08-03 17:24:00,6,Acknowledged by primary on-call
+229,55,Escalated,2026-08-03 17:32:00,6,Engaged service owner team and secondary on-call
+230,55,ClientComms,2026-08-03 17:25:00,6,Station management and sales/traffic notified
+231,55,Mitigated,2026-08-03 20:11:00,6,On-air / listener impact stopped
+232,55,Resolved,2026-08-03 21:04:00,6,Resolved and closed
+233,56,Created,2026-08-05 11:02:00,,Opened from monitoring alert
+234,56,Acknowledged,2026-08-05 11:06:00,8,Acknowledged by primary on-call
+235,56,Escalated,2026-08-05 11:12:00,8,Engaged service owner team and secondary on-call
+236,56,ClientComms,2026-08-05 11:08:00,8,Station management and sales/traffic notified
+237,56,Mitigated,2026-08-05 14:17:00,8,On-air / listener impact stopped
+238,56,Resolved,2026-08-05 15:37:00,8,Resolved and closed
+239,57,Created,2026-08-05 13:06:00,,Opened from monitoring alert
+240,57,Acknowledged,2026-08-05 13:10:00,8,Acknowledged by primary on-call
+241,57,Mitigated,2026-08-06 08:44:00,8,On-air / listener impact stopped
+242,57,Resolved,2026-08-06 11:37:00,8,Resolved and closed
+243,58,Created,2026-08-05 16:19:00,,Opened from monitoring alert
+244,58,Acknowledged,2026-08-05 16:52:00,8,Acknowledged by primary on-call
+245,58,Mitigated,2026-08-05 20:43:00,8,On-air / listener impact stopped
+246,58,Resolved,2026-08-05 23:58:00,8,Resolved and closed
+247,59,Created,2026-08-06 15:05:00,,Opened from monitoring alert
+248,59,Acknowledged,2026-08-06 15:13:00,1,Acknowledged by primary on-call
+249,59,Escalated,2026-08-06 15:22:00,1,Engaged service owner team and secondary on-call
+250,59,ClientComms,2026-08-06 15:24:00,1,Station management and sales/traffic notified
+251,59,Mitigated,2026-08-06 18:32:00,1,On-air / listener impact stopped
+252,59,Resolved,2026-08-06 19:23:00,1,Resolved and closed
+253,60,Created,2026-08-06 17:01:00,,Opened from monitoring alert
+254,60,Acknowledged,2026-08-06 17:55:00,1,Acknowledged by primary on-call
+255,60,Mitigated,2026-08-06 23:48:00,1,On-air / listener impact stopped
+256,60,Resolved,2026-08-07 02:15:00,1,Resolved and closed
+257,61,Created,2026-08-07 03:38:00,,Opened from monitoring alert
+258,61,Acknowledged,2026-08-07 04:00:00,6,Acknowledged by primary on-call
+259,61,Mitigated,2026-08-07 10:09:00,6,On-air / listener impact stopped
+260,61,Resolved,2026-08-07 11:16:00,6,Resolved and closed
+261,62,Created,2026-08-07 06:36:00,,Opened from monitoring alert
+262,62,Acknowledged,2026-08-07 07:01:00,6,Acknowledged by primary on-call
+263,62,Mitigated,2026-08-07 19:02:00,6,On-air / listener impact stopped
+264,62,Resolved,2026-08-07 20:56:00,6,Resolved and closed
+265,63,Created,2026-08-07 13:43:00,,Opened from monitoring alert
+266,63,Acknowledged,2026-08-07 13:50:00,2,Acknowledged by primary on-call
+267,63,Escalated,2026-08-07 13:58:00,2,Engaged service owner team and secondary on-call
+268,63,ClientComms,2026-08-07 13:57:00,2,Station management and sales/traffic notified
+269,63,Mitigated,2026-08-07 15:42:00,2,On-air / listener impact stopped
+270,63,Resolved,2026-08-07 16:48:00,2,Resolved and closed
+271,64,Created,2026-08-09 03:53:00,,Opened from monitoring alert
+272,64,Acknowledged,2026-08-09 05:13:00,8,Acknowledged by primary on-call
+273,64,Mitigated,2026-08-09 14:20:00,8,On-air / listener impact stopped
+274,64,Resolved,2026-08-09 16:32:00,8,Resolved and closed
+275,65,Created,2026-08-10 10:32:00,,Opened from monitoring alert
+276,65,Acknowledged,2026-08-10 11:19:00,5,Acknowledged by primary on-call
+277,65,Mitigated,2026-08-10 15:06:00,5,On-air / listener impact stopped
+278,65,Resolved,2026-08-10 19:24:00,5,Resolved and closed
+279,66,Created,2026-08-10 18:19:00,,Opened from monitoring alert
+280,66,Acknowledged,2026-08-10 19:03:00,5,Acknowledged by primary on-call
+281,66,Mitigated,2026-08-10 20:59:00,5,On-air / listener impact stopped
+282,66,Resolved,2026-08-11 00:48:00,5,Resolved and closed
+283,67,Created,2026-08-11 13:09:00,,Opened from monitoring alert
+284,67,Acknowledged,2026-08-11 13:22:00,6,Acknowledged by primary on-call
+285,67,Mitigated,2026-08-11 15:30:00,6,On-air / listener impact stopped
+286,67,Resolved,2026-08-11 17:06:00,6,Resolved and closed
+287,68,Created,2026-08-12 08:47:00,,Opened from monitoring alert
+288,68,Acknowledged,2026-08-12 09:30:00,7,Acknowledged by primary on-call
+289,68,Mitigated,2026-08-12 12:56:00,7,On-air / listener impact stopped
+290,68,Resolved,2026-08-12 14:40:00,7,Resolved and closed
+291,69,Created,2026-08-12 17:37:00,,Opened from monitoring alert
+292,69,Acknowledged,2026-08-12 19:14:00,7,Acknowledged by primary on-call
+293,69,Mitigated,2026-08-13 18:14:00,7,On-air / listener impact stopped
+294,69,Resolved,2026-08-14 09:38:00,7,Resolved and closed
+295,70,Created,2026-08-13 03:29:00,,Opened from monitoring alert
+296,70,Acknowledged,2026-08-13 03:34:00,4,Acknowledged by primary on-call
+297,70,Escalated,2026-08-13 03:42:00,4,Engaged service owner team and secondary on-call
+298,70,ClientComms,2026-08-13 03:36:00,4,Station management and sales/traffic notified
+299,70,Mitigated,2026-08-13 05:02:00,4,On-air / listener impact stopped
+300,70,Resolved,2026-08-13 06:35:00,4,Resolved and closed
+301,71,Created,2026-08-13 04:25:00,,Opened from monitoring alert
+302,71,Acknowledged,2026-08-13 04:40:00,4,Acknowledged by primary on-call
+303,71,Mitigated,2026-08-13 07:44:00,4,On-air / listener impact stopped
+304,71,Resolved,2026-08-13 15:41:00,4,Resolved and closed
+305,72,Created,2026-08-13 08:51:00,,Opened from monitoring alert
+306,72,Acknowledged,2026-08-13 09:32:00,8,Acknowledged by primary on-call
+307,72,Mitigated,2026-08-14 03:54:00,8,On-air / listener impact stopped
+308,72,Resolved,2026-08-14 07:26:00,8,Resolved and closed
+309,73,Created,2026-08-14 11:22:00,,Opened from monitoring alert
+310,73,Acknowledged,2026-08-14 13:49:00,1,Acknowledged by primary on-call
+311,73,Mitigated,2026-08-16 21:23:00,1,On-air / listener impact stopped
+312,73,Resolved,2026-08-17 13:22:00,1,Resolved and closed
+313,74,Created,2026-08-14 15:56:00,,Opened from monitoring alert
+314,74,Acknowledged,2026-08-14 16:09:00,1,Acknowledged by primary on-call
+315,74,Mitigated,2026-08-14 19:32:00,1,On-air / listener impact stopped
+316,74,Resolved,2026-08-14 20:14:00,1,Resolved and closed
+317,75,Created,2026-08-15 13:56:00,,Opened from monitoring alert
+318,75,Acknowledged,2026-08-15 14:21:00,2,Acknowledged by primary on-call
+319,75,Mitigated,2026-08-15 22:13:00,2,On-air / listener impact stopped
+320,75,Resolved,2026-08-16 05:20:00,2,Resolved and closed
+321,76,Created,2026-08-16 13:48:00,,Opened from monitoring alert
+322,76,Acknowledged,2026-08-16 13:57:00,3,Acknowledged by primary on-call
+323,76,Mitigated,2026-08-16 19:30:00,3,On-air / listener impact stopped
+324,76,Resolved,2026-08-16 23:29:00,3,Resolved and closed
+325,77,Created,2026-08-17 10:22:00,,Opened from monitoring alert
+326,77,Acknowledged,2026-08-17 10:37:00,4,Acknowledged by primary on-call
+327,77,Mitigated,2026-08-17 15:53:00,4,On-air / listener impact stopped
+328,77,Resolved,2026-08-17 19:15:00,4,Resolved and closed
+329,78,Created,2026-08-17 17:28:00,,Opened from monitoring alert
+330,78,Acknowledged,2026-08-17 17:32:00,4,Acknowledged by primary on-call
+331,78,Escalated,2026-08-17 17:36:00,4,Engaged service owner team and secondary on-call
+332,78,ClientComms,2026-08-17 17:54:00,4,Station management and sales/traffic notified
+333,78,Mitigated,2026-08-17 18:51:00,4,On-air / listener impact stopped
+334,78,Resolved,2026-08-17 20:27:00,4,Resolved and closed
+335,79,Created,2026-08-18 11:45:00,,Opened from monitoring alert
+336,79,Acknowledged,2026-08-18 12:12:00,5,Acknowledged by primary on-call
+337,79,Mitigated,2026-08-18 15:03:00,5,On-air / listener impact stopped
+338,79,Resolved,2026-08-18 16:10:00,5,Resolved and closed
+339,80,Created,2026-08-19 05:23:00,,Opened from monitoring alert
+340,80,Acknowledged,2026-08-19 05:35:00,2,Acknowledged by primary on-call
+341,80,Mitigated,2026-08-19 10:25:00,2,On-air / listener impact stopped
+342,80,Resolved,2026-08-19 18:44:00,2,Resolved and closed
+343,81,Created,2026-08-19 10:22:00,,Opened from monitoring alert
+344,81,Acknowledged,2026-08-19 10:36:00,6,Acknowledged by primary on-call
+345,81,Mitigated,2026-08-19 16:43:00,6,On-air / listener impact stopped
+346,81,Resolved,2026-08-19 21:45:00,6,Resolved and closed
+347,82,Created,2026-08-19 23:44:00,,Opened from monitoring alert
+348,82,Acknowledged,2026-08-20 01:19:00,3,Acknowledged by primary on-call
+349,82,Mitigated,2026-08-20 08:59:00,3,On-air / listener impact stopped
+350,82,Resolved,2026-08-20 19:04:00,3,Resolved and closed
+351,83,Created,2026-08-20 09:11:00,,Opened from monitoring alert
+352,83,Acknowledged,2026-08-20 10:17:00,7,Acknowledged by primary on-call
+353,83,Mitigated,2026-08-21 05:18:00,7,On-air / listener impact stopped
+354,83,Resolved,2026-08-21 08:58:00,7,Resolved and closed
+355,84,Created,2026-08-21 09:20:00,,Opened from monitoring alert
+356,84,Acknowledged,2026-08-21 10:45:00,8,Acknowledged by primary on-call
+357,84,Mitigated,2026-08-21 18:07:00,8,On-air / listener impact stopped
+358,84,Resolved,2026-08-22 10:25:00,8,Resolved and closed
+359,85,Created,2026-08-22 16:00:00,,Opened from monitoring alert
+360,85,Acknowledged,2026-08-22 16:50:00,1,Acknowledged by primary on-call
+361,85,Mitigated,2026-08-23 09:39:00,1,On-air / listener impact stopped
+362,85,Resolved,2026-08-23 16:21:00,1,Resolved and closed
+363,86,Created,2026-08-23 19:33:00,,Opened from monitoring alert
+364,86,Acknowledged,2026-08-23 20:21:00,2,Acknowledged by primary on-call
+365,86,Mitigated,2026-08-24 00:17:00,2,On-air / listener impact stopped
+366,86,Resolved,2026-08-24 03:25:00,2,Resolved and closed
+367,87,Created,2026-08-23 20:36:00,,Opened from monitoring alert
+368,87,Acknowledged,2026-08-23 22:22:00,7,Acknowledged by primary on-call
+369,87,Mitigated,2026-08-24 06:12:00,7,On-air / listener impact stopped
+370,87,Resolved,2026-08-24 21:03:00,7,Resolved and closed
+371,88,Created,2026-08-24 20:19:00,,Opened from monitoring alert
+372,88,Acknowledged,2026-08-24 20:31:00,8,Acknowledged by primary on-call
+373,88,Mitigated,2026-08-25 03:43:00,8,On-air / listener impact stopped
+374,88,Resolved,2026-08-25 06:11:00,8,Resolved and closed
+375,89,Created,2026-08-25 15:39:00,,Opened from monitoring alert
+376,89,Acknowledged,2026-08-25 16:47:00,4,Acknowledged by primary on-call
+377,89,Mitigated,2026-08-26 23:10:00,4,On-air / listener impact stopped
+378,89,Resolved,2026-08-27 02:22:00,4,Resolved and closed
+379,90,Created,2026-08-25 15:55:00,,Opened from monitoring alert
+380,90,Acknowledged,2026-08-25 17:05:00,4,Acknowledged by primary on-call
+381,90,Mitigated,2026-08-27 10:49:00,4,On-air / listener impact stopped
+382,90,Resolved,2026-08-27 20:24:00,4,Resolved and closed
+383,91,Created,2026-08-26 06:02:00,,Opened from monitoring alert
+384,91,Acknowledged,2026-08-26 06:38:00,1,Acknowledged by primary on-call
+385,91,Mitigated,2026-08-26 11:54:00,1,On-air / listener impact stopped
+386,91,Resolved,2026-08-26 14:06:00,1,Resolved and closed
+387,92,Created,2026-08-26 08:08:00,,Opened from monitoring alert
+388,92,Acknowledged,2026-08-26 09:23:00,5,Acknowledged by primary on-call
+389,92,Mitigated,2026-08-26 20:46:00,5,On-air / listener impact stopped
+390,92,Resolved,2026-08-27 12:39:00,5,Resolved and closed
+391,93,Created,2026-08-26 09:40:00,,Opened from monitoring alert
+392,93,Acknowledged,2026-08-26 09:53:00,5,Acknowledged by primary on-call
+393,93,Mitigated,2026-08-26 14:18:00,5,On-air / listener impact stopped
+394,93,Resolved,2026-08-26 15:28:00,5,Resolved and closed
+395,94,Created,2026-08-27 11:48:00,,Opened from monitoring alert
+396,94,Acknowledged,2026-08-27 12:17:00,6,Acknowledged by primary on-call
+397,94,Escalated,2026-08-27 12:23:00,6,Engaged service owner team and secondary on-call
+398,94,ClientComms,2026-08-27 12:08:00,6,Station management and sales/traffic notified
+399,94,Mitigated,2026-08-27 13:14:00,6,On-air / listener impact stopped
+400,94,Resolved,2026-08-27 15:07:00,6,Resolved and closed
+401,95,Created,2026-08-27 13:03:00,,Opened from monitoring alert
+402,95,Acknowledged,2026-08-27 13:27:00,6,Acknowledged by primary on-call
+403,95,Mitigated,2026-08-28 00:26:00,6,On-air / listener impact stopped
+404,95,Resolved,2026-08-28 03:40:00,6,Resolved and closed
+405,96,Created,2026-08-27 23:44:00,,Opened from monitoring alert
+406,96,Acknowledged,2026-08-28 00:36:00,3,Acknowledged by primary on-call
+407,96,Mitigated,2026-08-28 18:32:00,3,On-air / listener impact stopped
+408,96,Resolved,2026-08-29 20:17:00,3,Resolved and closed
+409,97,Created,2026-08-28 09:11:00,,Opened from monitoring alert
+410,97,Acknowledged,2026-08-28 10:34:00,7,Acknowledged by primary on-call
+411,97,Mitigated,2026-08-29 00:56:00,7,On-air / listener impact stopped
+412,97,Resolved,2026-08-29 21:16:00,7,Resolved and closed
+413,98,Created,2026-08-28 12:16:00,,Opened from monitoring alert
+414,98,Acknowledged,2026-08-28 12:23:00,7,Acknowledged by primary on-call
+415,98,Escalated,2026-08-28 12:26:00,7,Engaged service owner team and secondary on-call
+416,98,Mitigated,2026-08-28 13:59:00,7,On-air / listener impact stopped
+417,98,Resolved,2026-08-28 14:46:00,7,Resolved and closed
+418,99,Created,2026-08-29 15:50:00,,Opened from monitoring alert
+419,99,Acknowledged,2026-08-29 16:00:00,8,Acknowledged by primary on-call
+420,99,Escalated,2026-08-29 16:07:00,8,Engaged service owner team and secondary on-call
+421,99,ClientComms,2026-08-29 16:07:00,8,Station management and sales/traffic notified
+422,99,Mitigated,2026-08-29 16:55:00,8,On-air / listener impact stopped
+423,99,Resolved,2026-08-29 17:39:00,8,Resolved and closed
+424,100,Created,2026-08-31 01:27:00,,Opened from monitoring alert
+425,100,Acknowledged,2026-08-31 02:22:00,6,Acknowledged by primary on-call
+426,100,Mitigated,2026-08-31 09:20:00,6,On-air / listener impact stopped
+427,100,Resolved,2026-08-31 12:53:00,6,Resolved and closed
+428,101,Created,2026-08-31 11:17:00,,Opened from monitoring alert
+429,101,Acknowledged,2026-08-31 11:32:00,2,Acknowledged by primary on-call
+430,101,Mitigated,2026-08-31 23:10:00,2,On-air / listener impact stopped
+431,101,Resolved,2026-09-01 02:08:00,2,Resolved and closed
+432,102,Created,2026-09-01 17:47:00,,Opened from monitoring alert
+433,102,Acknowledged,2026-09-01 18:50:00,3,Acknowledged by primary on-call
+434,102,Mitigated,2026-09-02 06:51:00,3,On-air / listener impact stopped
+435,102,Resolved,2026-09-02 09:32:00,3,Resolved and closed
+436,103,Created,2026-09-02 10:13:00,,Opened from monitoring alert
+437,103,Acknowledged,2026-09-02 10:43:00,4,Acknowledged by primary on-call
+438,103,Mitigated,2026-09-03 08:25:00,4,On-air / listener impact stopped
+439,103,Resolved,2026-09-03 20:32:00,4,Resolved and closed
+440,104,Created,2026-09-02 17:49:00,,Opened from monitoring alert
+441,104,Acknowledged,2026-09-02 19:14:00,4,Acknowledged by primary on-call
+442,104,Mitigated,2026-09-03 03:19:00,4,On-air / listener impact stopped
+443,104,Resolved,2026-09-03 16:22:00,4,Resolved and closed
+444,105,Created,2026-09-03 07:23:00,,Opened from monitoring alert
+445,105,Acknowledged,2026-09-03 07:53:00,1,Acknowledged by primary on-call
+446,105,Mitigated,2026-09-03 19:58:00,1,On-air / listener impact stopped
+447,105,Resolved,2026-09-04 01:09:00,1,Resolved and closed
+448,106,Created,2026-09-03 10:41:00,,Opened from monitoring alert
+449,106,Acknowledged,2026-09-03 10:44:00,5,Acknowledged by primary on-call
+450,106,Escalated,2026-09-03 10:54:00,5,Engaged service owner team and secondary on-call
+451,106,Mitigated,2026-09-03 11:17:00,5,On-air / listener impact stopped
+452,106,Resolved,2026-09-03 13:43:00,5,Resolved and closed
+453,107,Created,2026-09-04 15:01:00,,Opened from monitoring alert
+454,107,Acknowledged,2026-09-04 15:17:00,6,Acknowledged by primary on-call
+455,107,Mitigated,2026-09-04 23:26:00,6,On-air / listener impact stopped
+456,107,Resolved,2026-09-05 05:19:00,6,Resolved and closed
+457,108,Created,2026-09-04 17:02:00,,Opened from monitoring alert
+458,108,Acknowledged,2026-09-04 17:24:00,6,Acknowledged by primary on-call
+459,108,Mitigated,2026-09-04 23:18:00,6,On-air / listener impact stopped
+460,108,Resolved,2026-09-05 07:19:00,6,Resolved and closed
+461,109,Created,2026-09-05 15:02:00,,Opened from monitoring alert
+462,109,Acknowledged,2026-09-05 15:40:00,7,Acknowledged by primary on-call
+463,109,Mitigated,2026-09-05 18:34:00,7,On-air / listener impact stopped
+464,109,Resolved,2026-09-05 21:06:00,7,Resolved and closed
+465,110,Created,2026-09-05 15:44:00,,Opened from monitoring alert
+466,110,Acknowledged,2026-09-05 16:21:00,7,Acknowledged by primary on-call
+467,110,Mitigated,2026-09-06 01:06:00,7,On-air / listener impact stopped
+468,110,Resolved,2026-09-06 03:25:00,7,Resolved and closed
+469,111,Created,2026-09-06 09:12:00,,Opened from monitoring alert
+470,111,Acknowledged,2026-09-06 09:17:00,8,Acknowledged by primary on-call
+471,111,Escalated,2026-09-06 09:24:00,8,Engaged service owner team and secondary on-call
+472,111,ClientComms,2026-09-06 11:00:00,8,Station management and sales/traffic notified
+473,111,Mitigated,2026-09-06 11:33:00,8,On-air / listener impact stopped
+474,111,Resolved,2026-09-06 12:35:00,8,Resolved and closed
+475,112,Created,2026-09-06 15:38:00,,Opened from monitoring alert
+476,112,Acknowledged,2026-09-06 15:45:00,8,Acknowledged by primary on-call
+477,112,Escalated,2026-09-06 15:47:00,8,Engaged service owner team and secondary on-call
+478,112,Mitigated,2026-09-06 18:57:00,8,On-air / listener impact stopped
+479,112,Resolved,2026-09-06 21:53:00,8,Resolved and closed
+480,113,Created,2026-09-06 18:52:00,,Opened from monitoring alert
+481,113,Acknowledged,2026-09-06 21:27:00,8,Acknowledged by primary on-call
+482,113,Mitigated,2026-09-07 21:43:00,8,On-air / listener impact stopped
+483,113,Resolved,2026-09-08 23:22:00,8,Resolved and closed
+484,114,Created,2026-09-07 00:10:00,,Opened from monitoring alert
+485,114,Acknowledged,2026-09-07 01:07:00,5,Acknowledged by primary on-call
+486,114,Mitigated,2026-09-07 06:09:00,5,On-air / listener impact stopped
+487,114,Resolved,2026-09-07 07:41:00,5,Resolved and closed
+488,115,Created,2026-09-07 01:33:00,,Opened from monitoring alert
+489,115,Acknowledged,2026-09-07 03:13:00,5,Acknowledged by primary on-call
+490,115,Mitigated,2026-09-07 06:50:00,5,On-air / listener impact stopped
+491,115,Resolved,2026-09-07 11:00:00,5,Resolved and closed
+492,116,Created,2026-09-08 13:17:00,,Opened from monitoring alert
+493,116,Acknowledged,2026-09-08 13:21:00,2,Acknowledged by primary on-call
+494,116,Escalated,2026-09-08 13:23:00,2,Engaged service owner team and secondary on-call
+495,116,ClientComms,2026-09-08 13:41:00,2,Station management and sales/traffic notified
+496,116,Mitigated,2026-09-08 17:58:00,2,On-air / listener impact stopped
+497,116,Resolved,2026-09-08 18:51:00,2,Resolved and closed
+498,117,Created,2026-09-09 04:31:00,,Opened from monitoring alert
+499,117,Acknowledged,2026-09-09 05:38:00,7,Acknowledged by primary on-call
+500,117,Mitigated,2026-09-10 00:06:00,7,On-air / listener impact stopped
+501,117,Resolved,2026-09-10 08:08:00,7,Resolved and closed
+502,118,Created,2026-09-09 09:15:00,,Opened from monitoring alert
+503,118,Acknowledged,2026-09-09 09:23:00,3,Acknowledged by primary on-call
+504,118,Escalated,2026-09-09 09:27:00,3,Engaged service owner team and secondary on-call
+505,118,ClientComms,2026-09-09 09:39:00,3,Station management and sales/traffic notified
+506,118,Mitigated,2026-09-09 09:57:00,3,On-air / listener impact stopped
+507,118,Resolved,2026-09-09 11:38:00,3,Resolved and closed
+508,119,Created,2026-09-10 02:45:00,,Opened from monitoring alert
+509,119,Acknowledged,2026-09-10 03:11:00,8,Acknowledged by primary on-call
+510,119,Mitigated,2026-09-10 15:41:00,8,On-air / listener impact stopped
+511,119,Resolved,2026-09-10 22:11:00,8,Resolved and closed
+512,120,Created,2026-09-10 12:38:00,,Opened from monitoring alert
+513,120,Acknowledged,2026-09-10 14:38:00,4,Acknowledged by primary on-call
+514,120,Mitigated,2026-09-11 00:52:00,4,On-air / listener impact stopped
+515,120,Resolved,2026-09-11 10:21:00,4,Resolved and closed
+516,121,Created,2026-09-10 17:32:00,,Opened from monitoring alert
+517,121,Acknowledged,2026-09-10 17:43:00,4,Acknowledged by primary on-call
+518,121,Escalated,2026-09-10 17:52:00,4,Engaged service owner team and secondary on-call
+519,121,ClientComms,2026-09-10 18:39:00,4,Station management and sales/traffic notified
+520,121,Mitigated,2026-09-10 20:16:00,4,On-air / listener impact stopped
+521,121,Resolved,2026-09-10 20:59:00,4,Resolved and closed
+522,122,Created,2026-09-11 07:41:00,,Opened from monitoring alert
+523,122,Acknowledged,2026-09-11 07:56:00,1,Acknowledged by primary on-call
+524,122,Mitigated,2026-09-11 23:02:00,1,On-air / listener impact stopped
+525,122,Resolved,2026-09-12 02:52:00,1,Resolved and closed
+526,123,Created,2026-09-11 08:17:00,,Opened from monitoring alert
+527,123,Acknowledged,2026-09-11 08:45:00,5,Acknowledged by primary on-call
+528,123,Mitigated,2026-09-11 11:34:00,5,On-air / listener impact stopped
+529,123,Resolved,2026-09-11 12:27:00,5,Resolved and closed
+530,124,Created,2026-09-11 14:16:00,,Opened from monitoring alert
+531,124,Acknowledged,2026-09-11 14:37:00,5,Acknowledged by primary on-call
+532,124,Mitigated,2026-09-11 23:30:00,5,On-air / listener impact stopped
+533,124,Resolved,2026-09-12 00:44:00,5,Resolved and closed
+534,125,Created,2026-09-12 10:15:00,,Opened from monitoring alert
+535,125,Acknowledged,2026-09-12 10:36:00,6,Acknowledged by primary on-call
+536,125,Mitigated,2026-09-12 15:45:00,6,On-air / listener impact stopped
+537,125,Resolved,2026-09-12 19:42:00,6,Resolved and closed
+538,126,Created,2026-09-12 13:11:00,,Opened from monitoring alert
+539,126,Acknowledged,2026-09-12 13:52:00,6,Acknowledged by primary on-call
+540,126,Mitigated,2026-09-12 15:49:00,6,On-air / listener impact stopped
+541,126,Resolved,2026-09-12 17:36:00,6,Resolved and closed
+542,127,Created,2026-09-13 09:44:00,,Opened from monitoring alert
+543,127,Acknowledged,2026-09-13 10:40:00,7,Acknowledged by primary on-call
+544,127,Mitigated,2026-09-14 08:12:00,7,On-air / listener impact stopped
+545,127,Resolved,2026-09-14 18:46:00,7,Resolved and closed
+546,128,Created,2026-09-13 15:39:00,,Opened from monitoring alert
+547,128,Acknowledged,2026-09-13 17:03:00,7,Acknowledged by primary on-call
+548,128,Mitigated,2026-09-14 05:23:00,7,On-air / listener impact stopped
+549,128,Resolved,2026-09-14 09:29:00,7,Resolved and closed
+550,129,Created,2026-09-15 09:34:00,,Opened from monitoring alert
+551,129,Acknowledged,2026-09-15 10:27:00,1,Acknowledged by primary on-call
+552,129,Mitigated,2026-09-15 18:11:00,1,On-air / listener impact stopped
+553,129,Resolved,2026-09-17 08:34:00,1,Resolved and closed
+554,130,Created,2026-09-15 19:34:00,,Opened from monitoring alert
+555,130,Acknowledged,2026-09-15 22:30:00,1,Acknowledged by primary on-call
+556,130,Mitigated,2026-09-16 10:56:00,1,On-air / listener impact stopped
+557,130,Resolved,2026-09-16 19:42:00,1,Resolved and closed
+558,131,Created,2026-09-17 12:56:00,,Opened from monitoring alert
+559,131,Acknowledged,2026-09-17 13:11:00,3,Acknowledged by primary on-call
+560,131,Mitigated,2026-09-17 15:25:00,3,On-air / listener impact stopped
+561,131,Resolved,2026-09-17 16:04:00,3,Resolved and closed
+562,132,Created,2026-09-17 13:25:00,,Opened from monitoring alert
+563,132,Acknowledged,2026-09-17 15:03:00,3,Acknowledged by primary on-call
+564,132,Mitigated,2026-09-18 01:24:00,3,On-air / listener impact stopped
+565,132,Resolved,2026-09-18 09:13:00,3,Resolved and closed
+566,133,Created,2026-09-17 15:34:00,,Opened from monitoring alert
+567,133,Acknowledged,2026-09-17 16:06:00,3,Acknowledged by primary on-call
+568,133,Mitigated,2026-09-17 20:46:00,3,On-air / listener impact stopped
+569,133,Resolved,2026-09-18 01:34:00,3,Resolved and closed
+570,134,Created,2026-09-18 08:38:00,,Opened from monitoring alert
+571,134,Acknowledged,2026-09-18 08:50:00,4,Acknowledged by primary on-call
+572,134,Mitigated,2026-09-19 00:43:00,4,On-air / listener impact stopped
+573,134,Resolved,2026-09-19 06:00:00,4,Resolved and closed
+574,135,Created,2026-09-18 13:09:00,,Opened from monitoring alert
+575,135,Acknowledged,2026-09-18 13:44:00,4,Acknowledged by primary on-call
+576,135,Mitigated,2026-09-18 19:20:00,4,On-air / listener impact stopped
+577,135,Resolved,2026-09-19 01:45:00,4,Resolved and closed
+578,136,Created,2026-09-18 14:03:00,,Opened from monitoring alert
+579,136,Acknowledged,2026-09-18 14:05:00,4,Acknowledged by primary on-call
+580,136,Escalated,2026-09-18 14:08:00,4,Engaged service owner team and secondary on-call
+581,136,ClientComms,2026-09-18 14:12:00,4,"Station managers, programming and sales/traffic notified: dead air on 3 stations"
+582,136,Mitigated,2026-09-18 14:19:00,4,On-air / listener impact stopped
+583,136,Resolved,2026-09-18 15:20:00,4,Resolved and closed
+584,137,Created,2026-09-18 14:24:00,,Opened from monitoring alert
+585,137,Acknowledged,2026-09-18 15:05:00,4,Acknowledged by primary on-call
+586,137,Mitigated,2026-09-19 22:10:00,4,On-air / listener impact stopped
+587,137,Resolved,2026-09-20 09:31:00,4,Resolved and closed
+588,138,Created,2026-09-19 12:43:00,,Opened from monitoring alert
+589,138,Acknowledged,2026-09-19 13:47:00,5,Acknowledged by primary on-call
+590,138,Mitigated,2026-09-20 07:23:00,5,On-air / listener impact stopped
+591,138,Resolved,2026-09-20 16:01:00,5,Resolved and closed
+592,139,Created,2026-09-19 17:49:00,,Opened from monitoring alert
+593,139,Acknowledged,2026-09-19 19:17:00,5,Acknowledged by primary on-call
+594,139,Mitigated,2026-09-20 08:27:00,5,On-air / listener impact stopped
+595,139,Resolved,2026-09-20 15:58:00,5,Resolved and closed
+596,140,Created,2026-09-20 04:54:00,,Opened from monitoring alert
+597,140,Acknowledged,2026-09-20 05:43:00,2,Acknowledged by primary on-call
+598,140,Mitigated,2026-09-20 06:31:00,2,On-air / listener impact stopped
+599,140,Resolved,2026-09-20 08:13:00,2,Resolved and closed
+600,141,Created,2026-09-20 11:07:00,,Opened from monitoring alert
+601,141,Acknowledged,2026-09-20 11:48:00,6,Acknowledged by primary on-call
+602,141,Mitigated,2026-09-20 14:49:00,6,On-air / listener impact stopped
+603,141,Resolved,2026-09-20 15:32:00,6,Resolved and closed
+604,142,Created,2026-09-21 18:48:00,,Opened from monitoring alert
+605,142,Acknowledged,2026-09-21 22:18:00,7,Acknowledged by primary on-call
+606,142,Mitigated,2026-09-22 03:45:00,7,On-air / listener impact stopped
+607,142,Resolved,2026-09-22 07:27:00,7,Resolved and closed
+608,143,Created,2026-09-22 13:11:00,,Opened from monitoring alert
+609,143,Acknowledged,2026-09-22 13:25:00,8,Acknowledged by primary on-call
+610,143,Mitigated,2026-09-22 16:38:00,8,On-air / listener impact stopped
+611,143,Resolved,2026-09-22 20:59:00,8,Resolved and closed
+612,144,Created,2026-09-23 11:52:00,,Opened from monitoring alert
+613,144,Acknowledged,2026-09-23 12:23:00,1,Acknowledged by primary on-call
+614,144,Mitigated,2026-09-24 20:02:00,1,On-air / listener impact stopped
+615,144,Resolved,2026-09-25 05:05:00,1,Resolved and closed
+616,145,Created,2026-09-23 12:19:00,,Opened from monitoring alert
+617,145,Acknowledged,2026-09-23 13:02:00,1,Acknowledged by primary on-call
+618,145,Mitigated,2026-09-23 18:42:00,1,On-air / listener impact stopped
+619,145,Resolved,2026-09-24 04:58:00,1,Resolved and closed
+620,146,Created,2026-09-24 10:43:00,,Opened from monitoring alert
+621,146,Acknowledged,2026-09-24 11:17:00,2,Acknowledged by primary on-call
+622,146,Mitigated,2026-09-24 13:45:00,2,On-air / listener impact stopped
+623,146,Resolved,2026-09-24 15:20:00,2,Resolved and closed
+624,147,Created,2026-09-24 13:40:00,,Opened from monitoring alert
+625,147,Acknowledged,2026-09-24 13:47:00,2,Acknowledged by primary on-call
+626,147,Escalated,2026-09-24 13:49:00,2,Engaged service owner team and secondary on-call
+627,147,ClientComms,2026-09-24 13:56:00,2,Station management and sales/traffic notified
+628,147,Mitigated,2026-09-24 14:25:00,2,On-air / listener impact stopped
+629,147,Resolved,2026-09-24 16:11:00,2,Resolved and closed
+630,148,Created,2026-09-24 18:20:00,,Opened from monitoring alert
+631,148,Acknowledged,2026-09-24 20:50:00,2,Acknowledged by primary on-call
+632,148,Mitigated,2026-09-25 16:06:00,2,On-air / listener impact stopped
+633,148,Resolved,2026-09-26 03:28:00,2,Resolved and closed
+634,149,Created,2026-09-25 09:11:00,,Opened from monitoring alert
+635,149,Acknowledged,2026-09-25 09:53:00,3,Acknowledged by primary on-call
+636,149,Mitigated,2026-09-25 16:35:00,3,On-air / listener impact stopped
+637,149,Resolved,2026-09-25 19:51:00,3,Resolved and closed
+638,150,Created,2026-09-25 09:53:00,,Opened from monitoring alert
+639,150,Acknowledged,2026-09-25 10:01:00,3,Acknowledged by primary on-call
+640,150,Mitigated,2026-09-25 13:31:00,3,On-air / listener impact stopped
+641,150,Resolved,2026-09-25 18:33:00,3,Resolved and closed
+642,151,Created,2026-09-25 18:36:00,,Opened from monitoring alert
+643,151,Acknowledged,2026-09-25 18:59:00,3,Acknowledged by primary on-call
+644,151,Mitigated,2026-09-25 23:20:00,3,On-air / listener impact stopped
+645,151,Resolved,2026-09-26 00:14:00,3,Resolved and closed
+646,152,Created,2026-09-26 11:23:00,,Opened from monitoring alert
+647,152,Acknowledged,2026-09-26 12:18:00,4,Acknowledged by primary on-call
+648,152,Mitigated,2026-09-28 17:31:00,4,On-air / listener impact stopped
+649,152,Resolved,2026-09-28 21:04:00,4,Resolved and closed
+650,153,Created,2026-09-26 18:04:00,,Opened from monitoring alert
+651,153,Acknowledged,2026-09-26 18:09:00,4,Acknowledged by primary on-call
+652,153,Escalated,2026-09-26 18:14:00,4,Engaged service owner team and secondary on-call
+653,153,ClientComms,2026-09-26 19:33:00,4,Station management and sales/traffic notified
+654,153,Mitigated,2026-09-26 19:36:00,4,On-air / listener impact stopped
+655,153,Resolved,2026-09-26 20:33:00,4,Resolved and closed
+656,154,Created,2026-09-27 13:48:00,,Opened from monitoring alert
+657,154,Acknowledged,2026-09-27 14:00:00,5,Acknowledged by primary on-call
+658,154,Mitigated,2026-09-27 16:20:00,5,On-air / listener impact stopped
+659,154,Resolved,2026-09-27 22:57:00,5,Resolved and closed
+660,155,Created,2026-09-28 22:33:00,,Opened from monitoring alert
+661,155,Acknowledged,2026-09-28 23:34:00,3,Acknowledged by primary on-call
+662,155,Mitigated,2026-09-29 06:52:00,3,On-air / listener impact stopped
+663,155,Resolved,2026-09-29 11:16:00,3,Resolved and closed
+664,156,Created,2026-09-29 04:03:00,,Opened from monitoring alert
+665,156,Acknowledged,2026-09-29 05:11:00,3,Acknowledged by primary on-call
+666,156,Mitigated,2026-09-29 17:02:00,3,On-air / listener impact stopped
+667,156,Resolved,2026-09-30 09:47:00,3,Resolved and closed
+668,157,Created,2026-09-30 16:44:00,,Opened from monitoring alert
+669,157,Acknowledged,2026-09-30 17:20:00,8,Acknowledged by primary on-call
+670,157,Mitigated,2026-09-30 23:06:00,8,On-air / listener impact stopped
+671,157,Resolved,2026-10-01 06:12:00,8,Resolved and closed
+672,158,Created,2026-09-30 22:15:00,,Opened from monitoring alert
+673,158,Acknowledged,2026-09-30 22:57:00,5,Acknowledged by primary on-call
+674,158,Mitigated,2026-10-01 11:16:00,5,On-air / listener impact stopped
+675,159,Created,2026-10-01 05:40:00,,Opened from monitoring alert
+676,159,Acknowledged,2026-10-01 05:44:00,5,Acknowledged by primary on-call
+677,159,Escalated,2026-10-01 05:51:00,5,Engaged service owner team and secondary on-call
+678,159,ClientComms,2026-10-01 06:02:00,5,Station management and sales/traffic notified
+679,160,Created,2026-10-01 06:55:00,,Opened from monitoring alert
