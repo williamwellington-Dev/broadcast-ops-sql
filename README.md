@@ -1,4 +1,6 @@
 # broadcast-ops-sql
+- The database schema, synthetic data and task brief were generated with Claude (AI) ** I CANNOT/WILL NOT USE REAL COMPANY DATA. 
+- All SQL in my_sql/ was written by me.
 
 T-SQL analysis of a quarter of operations data from a radio broadcast group: incidents, changes, alarms, SLAs and health checks across studios, transmitter sites, AoIP, STL links, playout, traffic and streaming. Built in **SQL Server**.
 
