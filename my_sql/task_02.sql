@@ -5,5 +5,8 @@
 USE BroadcastOps;
 GO
 
--- your query here
+SELECT hostname, location, os_family
 
+FROM ops.hosts
+
+WHERE location LIKE 'TX-%'; 
