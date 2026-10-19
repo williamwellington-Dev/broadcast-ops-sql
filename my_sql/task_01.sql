@@ -5,5 +5,10 @@
 USE BroadcastOps;
 GO
 
--- your query here
+SELECT Service_name,
+tier,
+owner_team 
 
+FROM ops.services
+
+ORDER BY tier, service_name; 
