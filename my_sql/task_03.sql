@@ -5,5 +5,8 @@
 USE BroadcastOps;
 GO
 
--- your query here
+SELECT severity,incident_number,title,detected_at, status
 
+FROM Ops.incidents
+WHERE severity = 1
+ORDER BY detected_at;
